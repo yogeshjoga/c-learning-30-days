@@ -3,13 +3,15 @@
 #include<string.h>
 #include<math.h>
 int main(){
-    char a,b;
-    b = (long) 'i love you rose';
+    char a[20], b;
+    a = ('A');
     printf("Enter your girlfriend name :");
-    scanf("%c", &a);
-    printf("%c , %c", a, b);
-
-
+    scanf("%c", &b);
+   // printf("%c , %c", a, b);
+   printf("%c ", b);
 }
+
+
+
 
 
