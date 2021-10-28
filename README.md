@@ -21,4 +21,13 @@ printf("a+b= %d", c);
 output like 
 a+b= 5
 ```
-
+## VS CODE INTERFACE
+<img
+src=“”
+raw=true
+alt=“Subject Pronouns”
+style=“margin-right: 10px;”
+/>
+## set the terminal in vs code
+Go to the Terminal in main bar, hit it and new terminal select the POWERSHELL,
+Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties, uncheck to check the USE LEGACY CONSOLE
