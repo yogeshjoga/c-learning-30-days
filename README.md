@@ -3,6 +3,7 @@ c learning with in 30 days, my self joga yogesh i'm a mechanical guy, im intrest
 ## Installation to C lang IDE + vs code
 Use the [vs code] ( https://code.visualstudio.com/ ) go to site click the download button start downloding, After download and install the vs code, open the vs code and click on the Extension logo button, click into the search button, search the gcc from microsoft extension download and install.
 
+## code
 '''python
 //write the code 
 #include<stdio.h>
@@ -15,6 +16,7 @@ printf("a+b= %d", c);
 }
 
 '''
+## output
 '''python
 output like 
 a+b= 5
