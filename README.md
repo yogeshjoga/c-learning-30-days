@@ -28,9 +28,8 @@ raw=true
 alt=“Subject Pronouns”
 style=“margin-right: 10px;”
 />
-a href="https://github.com/D3VL/L3MON/raw/master/Screenshots/call_log.png"> img width="1604"
 
 ## set the terminal in vs code
 
-Go to the Terminal in main bar, hit it and new terminal select the POWERSHELL,
-Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties, uncheck to check the USE LEGACY CONSOLE
+-Go to the Terminal in main bar, hit it and new terminal select the POWERSHELL,
+-Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties, uncheck to check the USE LEGACY CONSOLE
