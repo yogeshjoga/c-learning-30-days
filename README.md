@@ -22,14 +22,20 @@ output like
 a+b= 5
 ```
 ## VS CODE INTERFACE
-<img
-src="https://github.com/yogeshjoga/c-learning-30-days/blob/e5a7d8f05e63768c404368b6a40787e2ab7299c2/vs_code_interface.png"
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
+<img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/vs_code_interface.png" width="1604">
 
-## set the terminal in vs code
+
+## Set the Terminal in VS code
 
 -Go to the Terminal in main bar, hit it and new terminal select the POWERSHELL,
--Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties, uncheck to check the USE LEGACY CONSOLE
+-Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties.
+-uncheck to check the USE LEGACY CONSOLE
+
+
+## Disclaimer
+<b>D3VL Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+L3MON is built for both Educational and Internal use ONLY.</b>
+
+<br>
+<p align="center">Made with ❤️ By <a href="//d3vl.com">YOGESH JOGA</a></p>
+<p align="center" style="font-size: 8px">v1.1.2</p>
