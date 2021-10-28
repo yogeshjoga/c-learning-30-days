@@ -1,12 +1,4 @@
-<p align="center" style="font-size: 8px"><b>C-Learning-30-Days</b> </p>
-
-
-
-
-
-
-
-
+# <p align="center"><b>C-Learning-30-Days</b> </p>
 
 # C-learning-30-days
 c learning with in 30 days, my self joga yogesh i'm a mechanical guy, im intrested in computers, im already i know some computer lang's but a little bit gap to practice a code, now i'm started again lets start!!
@@ -53,4 +45,4 @@ a+b= 5
 <p align="center" style="font-size: 8px">CODE <b>C</b> Starting Day 24/10/2021</p>
 
    
-<img src="img_av" alt="Avatar" border-radius="50%">
+<img src="img_av" alt="Avatar" style =border-radius:50%>
