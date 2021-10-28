@@ -27,7 +27,7 @@ a+b= 5
 ```
 
 ## VS CODE INTERFACE
-<img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/vs_code_interface.png" width="1604" border-radius=50%>
+<img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/vs_code_interface.png">
 
 
 
@@ -43,6 +43,8 @@ a+b= 5
 
 <p align="center">Made with ❤️ By <a href="https://www.google.com/search?q=yogesh+joga&oq=yogesh+joga&aqs=chrome.0.69i59j0i512j0i10i22i30j69i60l3j69i65.2825j0j7&sourceid=chrome&ie=UTF-8">YOGESH JOGA</a></p>
 <p align="center" style="font-size: 8px">CODE <b>C</b> Starting Day 24/10/2021</p>
+[Instagram](https://www.instagram.com/_yogi_joga/)
+<p align="center" style="font-size: 8px"></p>
 
    
-<img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/my_photo_git.jpg" alt="Avatar" style="border-radius:50%">
+<img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/my_photo_git.jpg">
