@@ -23,11 +23,14 @@ a+b= 5
 ```
 ## VS CODE INTERFACE
 <img
-src=“”
+src="https://github.com/yogeshjoga/c-learning-30-days/blob/e5a7d8f05e63768c404368b6a40787e2ab7299c2/vs_code_interface.png"
 raw=true
 alt=“Subject Pronouns”
 style=“margin-right: 10px;”
 />
+a href="https://github.com/D3VL/L3MON/raw/master/Screenshots/call_log.png"> img width="1604"
+
 ## set the terminal in vs code
+
 Go to the Terminal in main bar, hit it and new terminal select the POWERSHELL,
 Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties, uncheck to check the USE LEGACY CONSOLE
