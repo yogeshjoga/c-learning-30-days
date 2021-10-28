@@ -4,7 +4,7 @@ c learning with in 30 days, my self joga yogesh i'm a mechanical guy, im intrest
 Use the [vs code] ( https://code.visualstudio.com/ ) go to site click the download button start downloding, After download and install the vs code, open the vs code and click on the Extension logo button, click into the search button, search the gcc from microsoft extension download and install.
 
 ## code
-'''python
+```c
 //write the code 
 #include<stdio.h>
 int main(){
@@ -15,10 +15,10 @@ c = a + b;
 printf("a+b= %d", c);
 }
 
-'''
+```
 ## output
-'''python
+```c
 output like 
 a+b= 5
-'''
+```
 
