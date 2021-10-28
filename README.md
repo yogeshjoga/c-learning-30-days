@@ -1,4 +1,12 @@
-<p align="center" style="font-size: 250px"><b>C-Learning-30-Days</b> </p>
+<p align="center" style="font-size: 8px"><b>C-Learning-30-Days</b> </p>
+
+
+
+
+
+
+
+
 
 # C-learning-30-days
 c learning with in 30 days, my self joga yogesh i'm a mechanical guy, im intrested in computers, im already i know some computer lang's but a little bit gap to practice a code, now i'm started again lets start!!
