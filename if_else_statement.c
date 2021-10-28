@@ -9,10 +9,10 @@ int main(){
        a =10;
        b =12;
       // c =15;
-       if(a<b){
+       if(a > b) {
            printf("A is the small in B");
        }
-       else (a>b){
+       else {
            printf("B is the bigger the A");
        }
      
