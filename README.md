@@ -30,6 +30,38 @@ a+b= 5
 <img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/vs_code_interface.png">
 
 
+## Set the Terminal in VS code
+
+-Go to the Terminal in main bar, hit it and new terminal select the POWERSHELL,
+-Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties.
+-uncheck to check the USE LEGACY CONSOLE
+
+## Input/Output
+
+```c
+#include<stdio.h>
+
+void main()
+{
+int a,b,c;
+printf("Please enter any two numbers: \n");
+scanf("%d %d", &a, &b);
+c =  a + b;
+printf("The addition of two number is: %d", c);
+}
+
+```
+
+## Output of the code
+
+```c
+Please enter any two numbers:
+10
+5
+The addition of two number is: 15
+```
+
+
 ## Simple function in C language
 
 ```c
@@ -142,13 +174,6 @@ The addition of two numbers is: 15
 
 ```
 
-
-
-## Set the Terminal in VS code
-
--Go to the Terminal in main bar, hit it and new terminal select the POWERSHELL,
--Go to the POWERSHELL open as a adim and right click the main bar, navigate the properties.
--uncheck to check the USE LEGACY CONSOLE
 
 <br>
 
