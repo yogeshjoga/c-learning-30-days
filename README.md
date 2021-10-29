@@ -30,6 +30,119 @@ a+b= 5
 <img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/vs_code_interface.png">
 
 
+## Simple function in C language
+
+```c
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<string.h>
+//function
+
+
+int a();
+
+
+int main(){
+int  b;
+b = a();
+printf("Adding two numbers by using function : %d \n", b);
+return 0;
+}
+
+
+int a(){
+    int a1 = 10, b1 = 20;
+    return a1 + b1;
+}
+
+```
+
+## function out put
+
+```c
+Adding two numbers by using function : 30
+```
+
+
+
+
+## functions
+
+```c
+#include<stdio.h>
+
+//function declaration
+int addition(int *num1, int *num2);
+
+int main()
+{
+       //local variable definition
+    int answer;
+    int num1 = 10;
+    int num2 = 5;
+    
+       //calling a function to get addition value
+    answer = addition(&num1,&num2);
+
+    printf("The addition of two numbers is: %d\n",answer);
+    return 0;
+}
+
+//function returning the addition of two numbers
+int addition(int *a,int *b)
+{
+    return *a + *b;
+}
+
+
+```
+
+## function out put
+
+```c
+The addition of two numbers is: 15
+```
+
+## fucntion type two
+
+```c
+#include<stdio.h>
+
+//function declaration
+int addition(int num1, int num2);
+
+int main()
+{
+    //local variable definition
+    int answer;
+    int num1 = 10;
+    int num2 = 5;
+    
+    //calling a function to get addition value
+    answer = addition(num1,num2);
+
+    printf("The addition of two numbers is: %d\n",answer);
+    return 0;
+}
+
+//function returning the addition of two numbers
+int addition(int a,int b)
+{
+    return a + b;
+}
+
+
+```
+## function out put
+
+```c
+The addition of two numbers is: 15
+
+```
+
+
 
 ## Set the Terminal in VS code
 
@@ -48,7 +161,7 @@ a+b= 5
 
 [Instagram]( https://www.instagram.com/_yogi_joga/ )
 
-[Facebook]( https://www.instagram.com/direct/t/340282366841710300949128193496886799294 )
+[Facebook]( https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100014890958322 )
 
 [Whatsapp]( https://chatwith.io/s/617ab3d1a9ef6 )
 

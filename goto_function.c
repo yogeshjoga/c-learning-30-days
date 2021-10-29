@@ -5,16 +5,16 @@
 void main(){
     int age;
     
-    minor:
+    minor: //user defined funcation 
        printf("You are the below 18 age that why you are the miner :\n");
-    major:
+    major: // user defined functaion
         printf("You are the above the 18+ that why your the major :\n");
-    printf("Enter your AGE :");
-    scanf("%d", &age);
-    if (age >= 18)
-        goto minor;
-    else
-        goto major;
+    printf("Enter your AGE :"); // asking for user
+    scanf("%d", &age); //input taken from user
+    if (age >= 18) // if condition 
+        goto minor;  // calling the user defined function
+    else         // else block
+        goto major;  // calling the user defined function
       //  return 0; 
 }
 
