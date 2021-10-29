@@ -22,6 +22,8 @@ int a(){
 }
 
 
+
+
 #include<stdio.h>
 
 //function declaration
@@ -46,6 +48,8 @@ int addition(int a,int b)
 {
     return a + b;
 }
+
+
 
 
 // new function type same
