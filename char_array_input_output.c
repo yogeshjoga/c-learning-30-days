@@ -8,12 +8,8 @@ void main(){
     char a[20]="I LOVE YOU ROSE"; // 2nd char array is "a" 
     printf("Enter your girlfriend name :");
     scanf("%s", &b);
-    printf(" %s miss %s darling", a, b);
-   
+    printf(" %s miss %s darling", a, b);  
 }
 
 // its something was wrong i don't know now, when i will learnt i will update.
 // lets rock
-
-
-
