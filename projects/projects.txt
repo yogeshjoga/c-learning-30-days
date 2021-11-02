@@ -1,0 +1,147 @@
+20 Best C programming projects for beginners
+Below are some C programming projects that you can develop as a beginner to gain more C programming skills:
+
+
+
+
+1. Bank Management System
+
+In this C programming project, You will learn and create your account and manage it with simple C language codes. File handling is used to store data and user information. Functions are used for better understanding. This project will help you to clear your programming concepts.
+
+
+
+
+
+2. Diary management System
+
+It is a basic C project that helps you to save your personal information with file handling. Users can protect their diary with a password. This project consists of pointers and functions for better understanding.
+
+
+
+
+
+3. Calendar using C
+
+This is a very simple mini project using c programming. You will create a monthly calendar with days and dates. You can use a turbo C compiler for the better handling of the codes.
+
+
+
+
+
+4. Contact Management System
+
+In this C project, users can save the contact and can also edit and delete it. It's like a phone book application. File handling is used to store the data. It also uses data structure to save the contacts etc.
+
+
+
+
+5. Library Management System
+
+The Library Management system is a basic C project. You can save the name of the student with the date of issue and author of the book. It also provides a facility to allocate no. Of the books that students can issue.
+
+
+
+
+6. Snake Game
+
+This is a simple snake game. GOTO function is used for movements of a snake. ⬆,➡,⬇,⬅ arrows used to control the snake. You can save gaming score with file handling concept.
+
+
+
+
+7. Bus Reservation system
+
+In this C project, you will learn to create a system that can reserve seats. It will also help to find the availability of seats and find the booking information too. It is one of the most popular and useful c projects where file handling is used to store the data.
+
+
+
+
+8. Customer Billing system
+
+The customer billing system is especially useful for cafes, stores and malls. You can keep a record of the customer name, amount due, the amount paid, mobile number with purchased items.
+
+
+
+9. Hospital Management system
+
+This C project is the same as a customer management system. You can save the information of patients, disease-related information with appointment time etc. It is a very simple project based on file handling for storing the data.
+
+
+
+
+10. Cyber management
+
+The beginner C project is especially for cyber cafes and computer centres. It helps to provide access to the user such as login etc. There are two parts of the project I.e. client and server. The server is for managing client requests. Client for giving access to client services. It has two source codes. It's a bit complicated but easy to understand.
+
+
+
+
+11. Cricket score display
+
+It consists of the runs made by batsman, wickets and number of balls played which will display on the screen. Along with this, it also displays the name of the batsman and bowler. It also displays the date and time of the game.
+
+
+
+
+12. Employee management system
+
+This beginner C project is helpful for the small scale and large scale industries. Admin can add all details about the employee and can update and delete it. File handling is used to store the data of employees.
+
+
+
+
+13. Pacman Game
+
+The Pacman game is similar to the snake game. It is a simple game without graphics for entertainment purposes. Source code is written in the C programming language and it is very easy to understand.
+
+
+
+
+14. Quiz game
+
+It consists of simple MCQ based on sports, general knowledge, technical content etc. Players just have to select the correct answer and can reach the next level. It is a very simple project with error-free sources.
+
+
+
+
+15. Phone-book application
+
+This project is similar to the contact management system. But the main difference is that you can add some additional information like gender, email, address etc.
+
+
+
+
+16. Election System
+
+Users can enter choice as per preference and can calculate total votes and leading candidate. It is a very simple C project and very easy to understand. Useful for small scale election projects.
+
+
+
+
+17. Flight ticket booking
+
+This project is the same as the bus ticket booking system. It also consists of the available seats with the schedule of the flights.
+
+
+
+
+18. Tourism Management system
+
+To use this project, you must sign in to the system. Then you can see the packages of tourist places with its description. It will clear concepts like functions and file handling.
+
+
+
+
+
+19. Simple Result system
+
+This is a simple result system where you can see your updated marks by teachers. This system also stores your academic information like roll no etc. The data is stored in a text file using file handling concept.
+
+
+
+
+20. Stock Management system
+
+It is the best project for beginners. In this project, you can check the stock of a particular store and can search the items with its quantity. It has no graphics but can be used for practical purposes.
+
+These are some of the best C programming projects for beginners. You can also check this link for more projects for computer science students.
