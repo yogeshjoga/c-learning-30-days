@@ -1,6 +1,7 @@
 // let's start the new project by using the c programming language
 // let's go....................
 // very exiting
+// youtube link    https://youtu.be/_2msghvRn5M
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
