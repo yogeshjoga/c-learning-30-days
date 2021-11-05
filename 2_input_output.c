@@ -1,7 +1,7 @@
 //inputs/outputs
 #include<stdio.h>
 
-int main(){
+int main(){  // hello
 char stg[100];
 int I;
 printf("Enter your name and your age\n");
