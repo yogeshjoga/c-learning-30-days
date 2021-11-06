@@ -10,7 +10,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 
 ## This is for beginners 
 
-### Overview of C Language   ----------------- 1st day
+### Overview of C Language   -------------------------- 1st day
 
 	C Tutorials
 	C Introduction
@@ -18,13 +18,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	History of C Programming
 	C Installation
 
-
-
-
-
-
-
-### C Language Fundamentals---------------------2nd day
+### C Language Fundamentals-----------------------------2nd day
 
 	C Tokens
 	C Identifiers
@@ -36,11 +30,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	C Type Casting
 
 
-
-
-
-
-### Data Input and Output------------------------3rd day
+### Data Input and Output-------------------------------3rd day
 	C Program Structure
 	C Input and Output (I/O)
 	C Format Specifiers
@@ -74,7 +64,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 
 
 
-### Functions----------------------------------------6th day
+### Functions---------------------------------------------6th day
 
 	C functions
 	C functions Arguments
@@ -86,7 +76,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 
 
 
-### Preprocessors and Header Files-----------------------7th day
+### Preprocessors and Header Files--------------------------7th day
 
 	C preprocessors
 	C Header Files
@@ -95,7 +85,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 
 
 
-### Arrays and Strings ----------------------------------8th day
+### Arrays and Strings --------------------------------------8th day
 
 	C Arrays
 	C strings
@@ -104,7 +94,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 
 
 
-### Pointers-------------------------------------9th day
+### Pointers--------------------------------------------------9th day
 
 	C Pointers
 	C Memory Management
@@ -114,7 +104,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 
 
 
-### Structure and Union ----------------------------10th day
+### Structure and Union -------------------------------------10th day
 
 	C Structures
 	C Unions
@@ -124,7 +114,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 
 
 
-### File Handlings  --------------------------------------11th day
+### File Handlings  -----------------------------------------11th day
 
 	C File Handling
 	C fopen
@@ -139,7 +129,7 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	C fscanf
 	C feof
 
-### C 99/89 ----------------------------------------12th day
+### C 99/89 ---------------------------------------------------12th day
 
 	C Commands Line Arguments
 	C 99 Features
