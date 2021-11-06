@@ -1,0 +1,6175 @@
+
+
+
+
+
+Overview of C Language   ----------------- 1st day
+	C Tutorials
+	C Introduction
+	Limitation of C Programming Language
+	History of C Programming
+	C Installation
+
+
+
+
+
+
+
+C Language Fundamentals---------------------2nd day
+	C Tokens
+	C Identifiers
+	C Keywords
+	C Constants
+	C Operators
+	C Data Types
+	C Variables
+	C Type Casting
+
+
+
+
+
+
+Data Input and Output------------------------3rd day
+	C Program Structure
+	C Input and Output (I/O)
+	C Format Specifiers
+
+
+
+
+
+Decision Control Structures ------------------------4th day
+	C Decision Making
+	C if Statements
+	C if-else Statements
+	C Nested if-else Statements
+	C else-if Statements
+	C goto Statement
+	C switch Statement
+
+
+
+
+
+
+Loop Control Structures------------------------------5th day
+	C Loops
+	C while loops
+	C do while loops
+	C for loops
+
+
+
+
+
+Functions----------------------------------------6th day
+	C functions
+	C functions Arguments
+	C Library Functions
+	C Variable Scope
+	C Recursion
+	C Storage Classes
+
+
+
+
+Preprocessors and Header Files-----------------------7th day
+	C preprocessors
+	C Header Files
+	C Custom Header Files
+
+
+
+
+Arrays and Strings ----------------------------------8th day
+	C Arrays
+	C strings
+
+
+
+
+
+Pointers-------------------------------------9th day
+	C Pointers
+	C Memory Management
+	C Dynamic Memory Allocations
+
+
+
+
+
+Structure and Union ----------------------------10th day
+	C Structures
+	C Unions
+	C typedef
+
+
+
+
+
+File Handlings  --------------------------------------11th day
+	C File Handling
+	C fopen
+	C fclose
+	C gets
+	C puts
+	C getc
+	C putc
+	C getw
+	C putw
+	C fprintf
+	C fscanf
+	C feof
+
+
+
+
+
+C 99/89 ----------------------------------------12th day
+	C Commands Line Arguments
+	C 99 Features
+	C Error Handling
+	Bit Fields in C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview of C Language   ----------------- 1st day
+
+C Tutorials
+
+
+This C tutorial series will help you to get started in the C programming language. By learning C, you will understand basic programming concepts.
+
+
+C is one of the most popular and widely used programming language, used to develop system application software.
+
+
+This C tutorial series has been designed for those who want to learn C programming; whether you are beginners or experts, tutorials are intended to cover basic concepts straightforwardly and systematically.
+
+To learn the C Programming language, you haven't required any previous programming knowledge. A basic understanding of any other programming languages will help you understand the C programming concepts quickly.
+
+
+A quick look at the example of Hello, World! In C programming
+
+/* Author: yogesh joga
+Date: 2021-11-03
+Description:
+Writes the words "Hello World" on the screen */  
+//programming c code
+#include<stdio.h>
+
+int main()
+{
+    printf("Hello, World!\n");
+    getch(); //Use to get one character input from user, and it will not be printed on screen.
+    return 0;
+}
+
+output of the above c programming code
+Hello, World
+
+
+The above example has been used to print Hello, World! Text on the screen.
+
+
+
+
+
+
+C Introduction
+
+C is a mid-level structured oriented programming language, used in general-purpose programming, developed by Dennis Ritchie at AT&T Bell Labs, the USA, between 1969 and 1973.
+
+Table of Contents
+# Some Facts About C Programming Language
+# Uses of C Programming Language
+# C Has Become Very Popular for Various Reasons
+# Features of C Programming Language
+# Advantages of C
+# Disadvantages of C
+In 1988, the American National Standards Institute (ANSI) had formalized the C language.
+C was invented to write UNIX operating system.
+C is a successor of 'Basic Combined Programming Language' (BCPL) called B language.
+Linux OS, PHP, and MySQL are written in C.
+C has been written in assembly language.
+In the beginning, C was used for developing system applications, e.g. :
+
+Database Systems
+Language Interpreters
+Compilers and Assemblers
+Operating Systems
+Network Drivers
+Word Processors
+
+One of the early programming languages.
+Still, the best programming language to learn quickly.
+C language is reliable, simple, and easy to use.
+C language is a structured language.
+Modern programming concepts are based on C.
+It can be compiled on a variety of computer platforms.
+Universities preferred to add C programming in their courseware.
+C is a robust language with a rich set of built-in functions and operators.
+Programs written in C are efficient and fast.
+C is highly portable; programs once written in C can be run on other machines with minor or no modification.
+C is a collection of C library functions; we can also create our function and add it to the C library.
+C is easily extensible.
+C is the building block for many other programming languages.
+Programs written in C are highly portable.
+Several standard functions are there (like in-built) that can be used to develop programs.
+C programs are collections of C library functions, and it's also easy to add functions to the C library.
+The modular structure makes code debugging, maintenance, and testing easier.
+C does not provide Object Oriented Programming (OOP) concepts.
+There are no concepts of Namespace in C.
+C does not provide binding or wrapping up of data in a single unit.
+C does not provide Constructor and Destructor.
+
+
+
+
+
+
+
+	Limitation of C Programming Language
+
+
+
+
+Along with the features of the C programming language, it has some limitations as well that are described in this chapter.
+
+The limitations of C programming languages are as follows:
+
+Difficult to debug.
+C allows a lot of freedom in writing code, and that is why you can put an empty line or white space anywhere in the program. And because there is no fixed place to start or end the line, so it isn't easy to read and understand the program.
+C compilers can only identify errors and are incapable of handling exceptions (run-time errors).
+C provides no data protection.
+It also doesn't feature the reusability of source code extensively.
+It does not provide strict data type checking (for example, an integer value can be passed for floating datatype).
+
+
+
+
+
+History of C Programming
+
+
+
+It is good to learn about the history of C programming. C was developed and written by Dennis M. Ritchie in the year 1972, and hence he is known as the founder of C.
+
+C programming language was developed to overcome the difficulties found in older programming languages such as BCPL, BASIC, B, etc.
+
+Here are the lists of programming languages that were developed with or before C:
+
+Programming Language	Development Year
+Regional Assembly Language	1951
+Autocode	1952
+IPL (forerunner to LISP)	1954
+FLOW-MATIC (led by COBOL)	1955
+FORTRAN (First compiler)	1957
+COMTRAN (precursor to COBOL)	1957
+LISP	1958
+ALGOL 58	1958
+FACT (forerunner to COBOL)	1959
+COBOL	1959
+RPG	1959
+APL	1962
+Simula	1962
+SNOBOL	1962
+CPL (forerunner to C)	1963
+Speakeasy (computational environment)	1964
+BASIC	1964
+PL/I	1964
+JOSS	1966
+BCPL (forerunner to C)	1967
+
+
+C is an imperative language designed to compile relatively straightforwardly, which provides low-level memory access. With the gradual increase in the program's popularity, the language and its compiler have become available on a wide range of platforms, from embedded microcontrollers to supercomputers.
+With the introduction of the K&R C language (a new edition of C published in 1978 by Brian Kernighan and Denis Ritchie), several features have been included in the C language.
+
+Some of these features are:
+
+Standard I/O (Input/Output) Library
+long int - data type
+unsigned int - data type
+Compound assignment operators
+During the late 1980s, C was started to use for various mainframe computers, micro, and minicomputers, which began to get famous. Gradually C got its superset - i.e., C++, which has added features, but it's developed from C with all its initial concepts.
+
+
+
+
+
+
+
+
+
+
+
+
+       C Installation
+
+
+To start learning C programming, you only have to install the C compiler in your system, and nowadays C and C++ both compilers come as a single integrated package, which serves the purpose of C and C++ both program development.
+
+
+
+Table of Contents
+# What is Compiler in C?
+# List of C Compilers for Windows OS
+# C Compiler Installation on Windows
+# C Compiler Installation on UNIX/Linux
+# C Compiler Installation on MAC
+A compiler is a computer program that transforms human-readable (programming language) source code into another computer language (binary) code.
+In simple terms, Compiler takes the code that you wrote and turned in to the binary code that the computer can understand.
+
+
+The C compiler is a software application that transforms the human-readable C program code to machine-readable code. The process of transforming the code from High-Level Language to Machine Level Language is called "Compilation". The human-readable code is the C program that consists of digits letters, special symbols, etc. which is understood by human beings. On the other hand, machine language is dependent on the processor and processor understands zeroes and ones (binary) only. All C program execution is based on a processor which is available in the CPU; that is why entire C source code needs to be converted to the binary system by the compiler.
+
+This tutorial is written for Windows, Unix / Linux, and MAC users. All code has been tested, and it works correctly on all three operating systems.
+
+
+Since there are various compilers available into the online market, here are the lists of some of the frequently used ones:
+
+CCS C Compiler
+Turbo C
+Minimalist GNU for Windows (MinGW)
+Portable C Compiler
+Clang C++
+Digital Mars C++ Compiler
+Intel C++
+IBM C++
+Visual C++ : Express Edition
+Oracle C++
+All of these above compilers for C are free to download, but there are some other paid C compilers also available, or programmers can get it for trial version:
+
+Embarcadero C++
+Edison Design Group C++
+Green Hills C++
+HP C++ for Unix
+Intel C++ for Windows, Linux, and some embedded systems.
+Microsoft C++
+Paradigm C++
+To use C compiler in Windows, you can install any one software mentioned below.
+
+
+You can download a 90-day trial version of Visual Studio
+You can download Dev-C++ IDE to develop C and C++ application.
+You can install MinGW
+If you are using UNIX / Linux, then most probably C compiler called GCC is already in your system. To check if you have it installed, you can type cc or gcc at the command prompt.
+
+
+$ gcc -v
+If for some reason it is not installed on your system, you can download it from gcc.gnu.org/install.
+
+Xcode development environment came with GNU C/C++ compiler; You can install it from Apple's website.
+
+You can download Xcode from developer.apple.com/technologies/tools.
+
+
+
+
+
+C Language Fundamentals---------------------2nd day
+
+
+
+
+
+
+
+C Tokens
+
+
+
+In C programs, each word and punctuation is referred to as a token. C Tokens are the smallest building block or smallest unit of a C program.
+
+
+The compiler breaks a program into the smallest possible units and proceeds to the various stages of the compilation, which is called token.
+
+
+C Supports Six Types of Tokens:
+Identifiers
+Keywords
+Constants
+Strings
+Operators
+Special Symbols
+
+
+
+
+
+
+
+
+C Identifiers
+
+
+
+
+Identifiers are names given to different entities such as constants, variables, structures, functions, etc.
+
+
+
+int amount;
+
+double totalbalance;
+In the above example, amount and totalbalance are identifiers and int, and double are keywords.
+
+
+Table of Contents
+# Rules for Naming Identifiers
+# Identifiers in C - Video Tutorial
+An identifier can only have alphanumeric characters (a-z , A-Z , 0-9) (i.e. letters & digits) and underscore( _ ) symbol.
+Identifier names must be unique
+The first character must be an alphabet or underscore.
+You cannot use a keyword as identifiers.
+Only the first thirty-one (31) characters are significant.
+It must not contain white spaces.
+Identifiers are case-sensitive.
+
+
+
+
+
+
+
+
+C Keywords
+
+
+
+
+
+
+The C Keywords must be in your information because you can not use them as a variable name.
+
+You can't use a keyword as an identifier in your C programs, its reserved words in C library and used to perform an internal operation. The meaning and working of these keywords are already known to the compiler.
+
+
+Table of Contents
+# C Keywords List
+# Example Where and How Keywords are Used in the Program
+# Keywords in C - Video Tutorial
+A list of 32 reserved keywords in c language is given below:
+
+auto	double	int	struct
+break	else	long	switch
+case	enum	register	typedef
+char	extern	return	union
+const	float	short	unsigned
+continue	for	signed	void
+default	goto	sizeof	volatile
+do	if	static	while
+#include<stdio.h>
+
+int main()
+{
+    float a, b;
+    printf("Showing how keywords are used.");
+    return 0;
+}
+In the above program, float and return are keywords. The float is used to declare variables, and return is used to return an integer type value in this program.
+
+
+
+
+
+C Constants
+
+Constants are like a variable, except that their value never changes during execution once defined.
+
+C Constants is the most fundamental and essential part of the C programming language. Constants in C are the fixed values that are used in a program, and its value remains the same during the entire execution of the program.
+
+
+Constants are also called literals.
+Constants can be any of the data types.
+It is considered best practice to define constants using only upper-case names.
+Table of Contents
+# Constant Definition in C
+# Constant Types in C
+# Integer Constant
+# Real constant
+# Single Character Constants
+# String Constants
+# Backslash character constant
+const type constant_name;
+const keyword defines a constant in C.
+
+#include<stdio.h>
+void main()
+{
+  const int SIDE = 10;
+  int area;
+  area = SIDE*SIDE;
+  printf("The area of the square with side: %d is: %d sq. units"
+  , SIDE, area);
+}
+
+Putting const either before or after the type is possible.
+
+int const SIDE = 10;
+or
+
+const int SIDE = 10;
+Constants are categorized into two basic types, and each of these types has its subtypes/categories. These are:
+
+
+Primary Constants
+Numeric Constants
+Integer Constants
+Real Constants
+Character Constants
+Single Character Constants
+String Constants
+Backslash Character Constants
+It's referring to a sequence of digits. Integers are of three types viz:
+
+Decimal Integer
+Octal Integer
+Hexadecimal Integer
+15, -265, 0, 99818, +25, 045, 0X6
+
+The numbers containing fractional parts like 99.25 are called real or floating points constant.
+
+It simply contains a single character enclosed within ' and ' (a pair of single quote). It is to be noted that the character '8' is not the same as 8. Character constants have a specific set of integer values known as ASCII values (American Standard Code for Information Interchange).
+
+'X', '5', ';'
+
+These are a sequence of characters enclosed in double quotes, and they may include letters, digits, special characters, and blank spaces. It is again to be noted that "G" and 'G' are different - because "G" represents a string as it is enclosed within a pair of double quotes whereas 'G' represents a single character.
+
+"Hello!", "2015", "2+1"
+
+C supports some character constants having a backslash in front of it. The lists of backslash characters have a specific meaning which is known to the compiler. They are also termed as "Escape Sequence".
+
+\t is used to give a tab
+
+\n is used to give a new line
+
+Constants	Meaning
+\a	beep sound
+\b	backspace
+\f	form feed
+\n	new line
+\r	carriage return
+\t	horizontal tab
+\v	vertical tab
+\'	single quote
+\"	double quote
+\\	backslash
+\0	null
+Secondary Constant
+Array
+Pointer
+Structure
+Union
+Enum
+
+
+
+
+
+
+C Operators
+
+
+C operators are symbols that are used to perform mathematical or logical manipulations. The C programming language is rich with built-in operators. Operators take part in a program for manipulating data and variables and form a part of the mathematical or logical expressions.
+
+Table of Contents
+# Types of Operators in C
+# Arithmetic Operators
+# C Program to Add Two Numbers
+# Increment and Decrement Operators
+# Relational Operators
+# Logical Operators
+# Bitwise Operators
+# Assignment Operators
+# Conditional Operator
+# Special Operators
+# Program to demonstrate the use of sizeof operator
+C programming language offers various types of operators having different functioning capabilities.
+Arithmetic Operators
+Relational Operators
+Logical Operators
+Assignment Operators
+Increment and Decrement Operators
+Conditional Operator
+Bitwise Operators
+Special Operators
+Arithmetic Operators are used to performing mathematical calculations like addition (+), subtraction (-), multiplication (*), division (/) and modulus (%).
+
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	Modulus
+#include <stdio.h>
+void main()
+{
+ int i=3,j=7,k; /* Variables Defining and Assign values */
+ k=i+j;
+ printf("sum of two numbers is %d\n", k); 
+}
+
+Increment and Decrement Operators are useful operators generally used to minimize the calculation, i.e. ++x and x++ means x=x+1 or -x and x−−means x=x-1. But there is a slight difference between ++ or −− written before or after the operand. Applying the pre-increment first add one to the operand and then the result is assigned to the variable on the left whereas post-increment first assigns the value to the variable on the left and then increment the operand.
+
+Operator	Description
+++	Increment
+−−	Decrement
+#include <stdio.h>
+//stdio.h is a header file used for input.output purpose.
+
+void main()
+{
+    //set a and b both equal to 5.
+    int a=5, b=5;
+    
+    //Print them and decrementing each time.
+    //Use postfix mode for a and prefix mode for b.
+    printf("\n%d %d",a--,--b);
+    printf("\n%d %d",a--,--b);
+    printf("\n%d %d",a--,--b);
+    printf("\n%d %d",a--,--b);
+    printf("\n%d %d",a--,--b);
+}
+5 4
+4 3
+3 2
+2 1
+1 0
+Relational operators are used to comparing two quantities or values.
+
+Operator	Description
+==	Is equal to
+!=	Is not equal to
+>	Greater than
+<	Less than
+>=	Greater than or equal to
+<=	Less than or equal to
+C provides three logical operators when we test more than one condition to make decisions. These are: && (meaning logical AND), || (meaning logical OR) and ! (meaning logical NOT).
+
+Operator	Description
+&&	And operator. It performs logical conjunction of two expressions. (if both expressions evaluate to True, result is True. If either expression evaluates to False, the result is False)
+||	Or operator. It performs a logical disjunction on two expressions. (if either or both expressions evaluate to True, the result is True)
+!	Not operator. It performs logical negation on an expression.
+C provides a special operator for bit operation between two variables.
+
+Operator	Description
+<<	Binary Left Shift Operator
+>>	Binary Right Shift Operator
+~	Binary Ones Complement Operator
+&	Binary AND Operator
+^	Binary XOR Operator
+|	Binary OR Operator
+Assignment operators applied to assign the result of an expression to a variable. C has a collection of shorthand assignment operators.
+
+Operator	Description
+=	Assign
++=	Increments then assign
+-=	Decrements then assign
+*=	Multiplies then assign
+/=	Divides then assign
+%=	Modulus then assign
+<<=	Left shift and assign
+>>=	Right shift and assign
+&=	Bitwise AND assign
+^=	Bitwise exclusive OR and assign
+|=	Bitwise inclusive OR and assign
+C offers a ternary operator which is the conditional operator (?: in combination) to construct conditional expressions.
+
+Operator	Description
+? :	 Conditional Expression
+C supports some special operators
+
+Operator	Description
+sizeof()	 Returns the size of a memory location.
+&	 Returns the address of a memory location.
+*	 Pointer to a variable.
+#include <stdio.h>
+void main()
+{
+    int i=10; // Variables Defining and Assign values
+    printf("integer: %d\n", sizeof(i));
+}
+
+
+
+
+
+
+
+C Data Types
+
+
+A data-type in C programming is a set of values and is determined to act on those values. C provides various types of data-types which allow the programmer to select the appropriate type for the variable to set its value.
+
+The data-type in a programming language is the collection of data with values having fixed meaning as well as characteristics. Some of them are an integer, floating point, character, etc. Usually, programming languages specify the range values for given data-type.
+
+
+C Data Types are used to:
+
+Identify the type of a variable when it declared.
+Identify the type of the return value of a function.
+Identify the type of a parameter expected by a function.
+ANSI C provides three types of data types:
+Primary(Built-in) Data Types:
+void, int, char, double and float.
+Derived Data Types:
+Array, References, and Pointers.
+User Defined Data Types:
+Structure, Union, and Enumeration.
+Table of Contents
+# Primary Data Types
+# Declaration of Primary Data Types with Variable Names
+# Derived Data Types
+# User Defined Data Types
+# Data Types and Variable Declarations in C
+Every C compiler supports five primary data types:
+
+
+void	As the name suggests, it holds no value and is generally used for specifying the type of function or what it returns. If the function has a void type, it means that the function will not return any value.
+int	Used to denote an integer type.
+char	Used to denote a character type.
+float, double	Used to denote a floating point type.
+int *, float *, char *	Used to denote a pointer type.
+Three more data types have been added in C99:
+
+_Bool
+_Complex
+_Imaginary
+After taking suitable variable names, they need to be assigned with a data type. This is how the data types are used along with variables:
+
+int    age;
+char   letter;
+float  height, width;
+C supports three derived data types:
+
+Data Types	Description
+Arrays	Arrays are sequences of data items having homogeneous values. They have adjacent memory locations to store values.
+References	Function pointers allow referencing functions with a particular signature.
+Pointers	These are powerful C features which are used to access the memory and deal with their addresses.
+C allows the feature called type definition which allows programmers to define their identifier that would represent an existing data type. There are three such types:
+
+
+Data Types	Description
+Structure	It is a package of variables of different types under a single name. This is done to handle data efficiently. "struct" keyword is used to define a structure.
+Union	These allow storing various data types in the same memory location. Programmers can define a union with different members, but only a single member can contain a value at a given time. It is used for
+Enum	Enumeration is a special data type that consists of integral constants, and each of them is assigned with a specific name. "enum" keyword is used to define the enumerated data type.
+#include <stdio.h>
+int main()
+{
+    int a = 4000; // positive integer data type
+    float b = 5.2324; // float data type
+    char c = 'Z'; // char data type
+    long d = 41657; // long positive integer data type
+    long e = -21556; // long -ve integer data type
+    int f = -185; // -ve integer data type
+    short g = 130; // short +ve integer data type
+    short h = -130; // short -ve integer data type
+    double i = 4.1234567890; // double float data type
+    float j = -3.55; // float data type
+}
+The storage representation and machine instructions differ from machine to machine. sizeof operator can use to get the exact size of a type or a variable on a particular platform.
+ 
+
+#include <stdio.h>
+#include <limits.h>
+int main()
+{
+    printf("Storage size for int is: %d \n", sizeof(int));
+    printf("Storage size for char is: %d \n", sizeof(char));
+    return 0; 
+}
+
+
+
+
+
+C Variables
+
+
+
+
+
+Variables are memory locations(storage area) in the C programming language.
+
+The primary purpose of variables is to store data in memory for later use. Unlike constants which do not change during the program execution, variables value may change during execution. If you declare a variable in C, that means you are asking the operating system to reserve a piece of memory with that variable name.
+
+
+Table of Contents
+# Variable Declaration in C
+# Variable Declaration and Initialization
+# Variable Assignment
+# There are some rules on choosing variable names
+# C Program to Print Value of a Variable
+type variable_name;
+or
+
+type variable_name, variable_name, variable_name;
+int    width, height=5;
+char   letter='A';
+float  age, area;
+double d;
+
+/* actual initialization */width = 10;
+age = 26.5;
+A variable assignment is a process of assigning a value to a variable.
+
+int width = 60;
+int age = 31;
+A variable name can consist of Capital letters A-Z, lowercase letters a-z, digits 0-9, and the underscore character.
+The first character must be a letter or underscore.
+Blank spaces cannot be used in variable names.
+Special characters like #, $ are not allowed.
+C keywords cannot be used as variable names.
+Variable names are case sensitive.
+Values of the variables can be numeric or alphabetic.
+Variable type can be char, int, float, double, or void.
+#include<stdio.h>
+
+void main()
+{
+    int age = 33; // c program to print value of a variable
+    printf("I am %d years old.\n", age);
+}
+
+program Output
+
+I am 33 years old.
+
+
+
+
+
+
+
+
+C Type Casting
+
+
+
+
+Type Casting in C is used to convert a variable from one data type to another data type, and after type casting compiler treats the variable as of the new data type.
+
+(type_name) expression
+Table of Contents
+# Without Type Casting
+# After Type Casting
+#include <stdio.h>
+void main ()
+{
+    int a;
+    a = 15/6;
+    printf("%d",a);
+}
+In the above C program, 15/6 alone will produce integer value as 2.
+
+#include <stdio.h>
+void main ()
+{
+    float a;
+    a = (float) 15/6;
+    printf("%f",a);
+}
+
+
+
+output:
+
+
+After type cast is done before division to retain float value 2.500000.
+
+
+
+
+
+
+
+Data Input and Output------------------------3rd day
+
+
+
+
+
+
+	C Program Structure
+
+
+This lesson has detailed description of C program structure. It's essential for you before proceeding to learn more advanced lessons of C programming.
+
+A C program involves the following sections:
+Documentations (Documentation Section)
+Preprocessor Statements (Link Section)
+Global Declarations (Definition Section)
+The main() function
+Local Declarations
+Program Statements & Expressions
+User Defined Functions
+Let's begin with a simple C program code.
+
+
+Table of Contents
+# Sample Code of C "Hello World" Program
+# Let's look into various parts of the above C program.
+# Comments in C - Video Tutorial
+# Basic Structure of C Program
+/* Author: www.w3schools.in
+Date: 2018-04-28
+Description:
+Writes the words "Hello, World!" on the screen */  
+#include<stdio.h>
+
+int main()
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+or in a different way
+
+/* Author: www.w3schools.in
+Date: 2013-11-15
+Description:
+Writes the words "Hello, World!" on the screen */
+#include<stdio.h>
+#include<conio.h> 
+
+void main()
+{
+    printf("Hello, World!\n");
+    return;
+}
+
+The above example has been used to print Hello, World! Text on the screen.
+
+/* Comments */	Comments are a way of explaining what makes a program. The compiler ignores comments and used by others to understand the code.
+or
+
+This is a comment block, which is ignored by the compiler. Comment can be used anywhere in the program to add info about the program or code block, which will be helpful for developers to understand the existing code in the future easily.
+
+To understand "C Comments" in more depth, please watch this video tutorial.
+
+#include<stdio.h>	stdio is standard for input/output, this allows us to use some commands which includes a file called stdio.h.
+or
+
+This is a preprocessor command. That notifies the compiler to include the header file stdio.h in the program before compiling the source-code.
+
+int/void main()	int/void is a return value, which will be explained in a while.
+main()	The main() is the main function where program execution begins. Every C program must contain only one main function.
+or
+
+This is the main function, which is the default entry point for every C program and the void in front of it indicates that it does not return a value.
+
+Braces	Two curly brackets "{...}" are used to group all statements.
+or
+
+Curly braces which shows how much the main() function has its scope.
+
+printf()	It is a function in C, which prints text on the screen.
+or
+
+This is another pre-defined function of C which is used to be displayed text string in the screen.
+
+return 0	At the end of the main function returns value 0.
+The example discussed above illustrates how a simple C program looks like and how the program segment works. A C program may contain one or more sections which are figured above.
+
+The Documentation section usually contains the collection of comment lines giving the name of the program, author's or programmer's name and few other details. The second part is the link-section which instructs the compiler to connect to the various functions from the system library. The Definition section describes all the symbolic-constants. The global declaration section is used to define those variables that are used globally within the entire program and is used in more than one function. This section also declares all the user-defined functions. Then comes the main(). All C programs must have a main() which contains two parts:
+
+
+Declaration part
+Execution part
+The declaration part is used to declare all variables that will be used within the program. There needs to be at least one statement in the executable part, and these two parts are declared within the opening and closing curly braces of the main(). The execution of the program begins at the opening brace '{' and ends with the closing brace '}'. Also, it has to be noted that all the statements of these two parts need to be terminated with a semi-colon.
+
+The sub-program section deals with all user-defined functions that are called from the main(). These user-defined functions are declared and usually defined after the main() function.
+
+
+
+
+
+C Input and Output (I/O)
+
+
+As we all know the three essential functions of a computer are reading, processing and writing data. Majority of the programs take data as input, and then after processing the processed data is being displayed which is called information. In C programming you can use scanf() and printf() predefined function to read and print data.
+
+
+
+#include<stdio.h>
+
+void main()
+{
+int a,b,c;
+printf("Please enter any two numbers: \n");
+scanf("%d %d", &a, &b);
+c =  a + b;
+printf("The addition of two number is: %d", c);
+}
+Please enter any two numbers:
+12
+3
+The addition of two number is:15
+The above program scanf() is used to take input from the user, and respectively printf() is used to display output result on the screen.
+
+Table of Contents
+# Managing Input/Output
+# Reading Character In C
+# Writing Character In C
+# Formatted Input
+# Reading and Writing Strings in C
+I/O operations are useful for a program to interact with users. stdlib is the standard C library for input-output operations. While dealing with input-output operations in C, two important streams play their role. These are:
+
+Standard Input (stdin)
+Standard Output (stdout)
+Standard input or stdin is used for taking input from devices such as the keyboard as a data stream. Standard output or stdout is used for giving output to a device such as a monitor. For using I/O functionality, programmers must include stdio header-file within the program.
+
+
+The easiest and simplest of all I/O operations are taking a character as input by reading that character from standard input (keyboard). getchar() function can be used to read a single character. This function is alternate to scanf() function.
+
+var_name = getchar();
+#include<stdio.h>
+
+void main()
+{
+char title;
+title = getchar();
+}
+There is another function to do that task for files: getc which is used to accept a character from standard input.
+
+int getc(FILE *stream);
+Similar to getchar() there is another function which is used to write characters, but one at a time.
+
+
+putchar(var_name);
+#include<stdio.h>
+
+void main()
+{
+char result = 'P';
+putchar(result);
+putchar('\n');
+}
+Similarly, there is another function putc which is used for sending a single character to the standard output.
+
+
+int putc(int c, FILE *stream);
+It refers to an input data which has been arranged in a specific format. This is possible in C using scanf(). We have already encountered this and familiar with this function.
+
+scanf("control string", arg1, arg2, ..., argn);
+The field specification for reading integer inputted number is:
+
+%w sd
+Here the % sign denotes the conversion specification; w signifies the integer number that defines the field width of the number to be read. d defines the number to be read in integer format.
+
+#include<stdio.h>
+
+void main()
+{
+int var1= 60;
+int var2= 1234;
+scanf("%2d %5d", &var1, &var2);
+}
+Input data items should have to be separated by spaces, tabs or new-line and the punctuation marks are not counted as separators.
+
+There are two popular library functions gets() and puts() provides to deal with strings in C.
+
+gets: The char *gets(char *str) reads a line from stdin and keeps the string pointed to by the str and is terminated when the new line is read or EOF is reached. The declaration of gets() function is:
+
+char *gets(char *str);
+Where str is a pointer to an array of characters where C strings are stored.
+
+puts: The function - int puts(const char *str) is used to write a string to stdout, but it does not include null characters. A new line character needs to be appended to the output. The declaration is:
+
+int puts(const char *str)
+where str is the string to be written in C.
+
+
+
+
+
+
+C Format Specifiers
+
+Format specifiers can be defined as the operators which are used in association with printf() function for printing the data that is referred by any object or any variable. When a value is stored in a particular variable, then you cannot print the value stored in the variable straightforwardly without using the format specifiers. You can retrieve the data that are stored in the variables and can print them onto the console screen by implementing these format specifiers in a printf() function.
+
+
+
+Format specifiers start with a percentage % operator and followed by a special character for identifying the type of data.
+
+
+There are mostly six types of format specifiers that are available in C.
+
+Table of Contents
+# List of format specifiers in C
+# Integer Format Specifier %d
+# Float Format Specifier %f
+# Character Format Specifier %c
+# String Format Specifier %s
+# Unsigned Integer Format Specifier %u
+# Long Int Format Specifier %ld
+Format Specifier	Description
+%d	Integer Format Specifier
+%f	Float Format Specifier
+%c	Character Format Specifier
+%s	String Format Specifier
+%u	Unsigned Integer Format Specifier
+%ld	Long Int Format Specifier
+The %d format specifier is implemented for representing integer values. This is used with printf() function for printing the integer value stored in the variable.
+
+
+printf("%d",<variable name>);
+The %f format specifier is implemented for representing fractional values. This is implemented within printf() function for printing the fractional or floating value stored in the variable. Whenever you need to print any fractional or floating data, you have to use %f format specifier.
+
+printf("%f", <variable name>);
+The %c format specifier is implemented for representing characters. This is used with printf() function for printing the character stored in a variable. When you want to print a character data, you should incorporate the %c format specifier.
+
+printf("%c",<variable name>);
+The %s format specifier is implemented for representing strings. This is used in printf() function for printing a string stored in the character array variable. When you have to print a string, you should implement the %s format specifier.
+
+
+printf("%s",<variable name>);
+The %u format specifier is implemented for fetching values from the address of a variable having unsigned decimal integer stored in the memory. This is used within printf() function for printing the unsigned integer variable.
+
+
+printf("%u",<variable name>);
+The %ld format specifier is implemented for representing long integer values. This is implemented with printf() function for printing the long integer value stored in the variable.
+
+printf("%ld",<variable name>);
+
+
+
+
+
+Decision Control Structures ------------------------4th day
+
+
+
+
+
+	C Decision Making
+
+C conditional statements allow you to make a decision, based upon the result of a condition. These statements are called Decision Making Statements or Conditional Statements.
+
+So far, we have seen that all set of statements in a C program gets executed sequentially in the order in which they are written and appear. This occurs when there is no jump based statements or repetitions of certain calculations. But some situations may arise where we may have to change the order of execution of statements depending on some specific conditions. This involves a kind of decision making from a set of calculations. It is to be noted that C language assumes any non-zero or non-null value as true and if zero or null, treated as false.
+
+
+This type of structure requires that the programmers indicate several conditions for evaluation within a program. The statement(s) will get executed only if the condition becomes true and optionally, alternative statement or set of statements will get executed if the condition becomes false.
+
+The flowchart of the Decision-making technique in C can be expressed as:
+
+
+C languages have such decision-making capabilities within its program by the use of following the decision making statements:
+
+Conditional Statements in C
+If statement
+if statement
+if-else statement
+Nested if-else statement
+else if-statement
+goto statement
+switch statement
+Conditional Operator
+
+
+
+
+C if Statements
+
+
+If statements in C is used to control the program flow based on some condition, it's used to execute some statement code block if the expression is evaluated to true. Otherwise, it will get skipped. This is the simplest way to modify the control flow of the program.
+
+The if statement in C can be used in various forms depending on the situation and complexity.
+
+
+There are four different types of if statement in C. These are:
+Simple if Statement
+if-else Statement
+Nested if-else Statement
+else-if Ladder
+The basic format of if statement is:
+
+if(test_expression)
+{
+    statement 1;
+    statement 2;
+    ...
+}
+'Statement n' can be a statement or a set of statements, and if the test expression is evaluated to true, the statement block will get executed, or it will get skipped.
+
+
+Figure - Flowchart of if Statement:
+
+
+#include<stdio.h>
+
+void main()
+{
+  int a = 15, b = 20;
+
+  if (b > a) {  
+    printf("b is greater");
+  }
+}
+
+#include<stdio.h>
+
+void main()
+{
+  int number;
+  printf("Type a number:");
+  scanf("%d", &number);
+
+  if (number < 0) { // check whether the number is negative number.
+    number = -number; // If it is a negative then convert it into positive.
+    printf("The absolute value is %d\n", number);
+  }
+} 
+
+
+
+	C if-else Statements
+
+If else statements in C is also used to control the program flow based on some condition, only the difference is: it's used to execute some statement code block if the expression is evaluated to true, otherwise executes else statement code block.
+
+The basic format of if else statement is:
+
+if(test_expression)
+{
+   //execute your code
+}
+else
+{
+   //execute your code
+}
+Figure - Flowchart of if-else Statement:
+
+
+Table of Contents
+# Example of a C Program to Demonstrate if-else Statement
+# if-else Statements in C - Video Tutorial
+#include<stdio.h>
+
+void main()
+{
+  int a, b;
+
+  printf("Please enter the value for a:");
+  scanf("%d", &a);
+
+  printf("\nPlease the value for b:");
+  scanf("%d", &b);
+
+  if (a > b) {  
+    printf("\n a is greater");
+  } else {  
+    printf("\n b is greater");
+  }
+}
+
+#include<stdio.h>
+
+void main() {
+  int num;
+  printf("Enter the number:");
+  scanf("%d", &num);
+
+  /* check whether the number is negative number */  if (num < 0)
+    printf("The number is negative.");
+  else
+    printf("The number is positive."); 
+}
+
+
+
+
+
+
+
+	C Nested if-else Statements
+
+Nested if else statements play an important role in C programming, it means you can use conditional statements inside another conditional statement.
+
+The basic format of Nested if else statement is:
+
+if(test_expression one)
+{
+   if(test_expression two) {
+      //Statement block Executes when the boolean test expression two is true.
+   }
+}
+else
+{
+    //else statement block
+}
+Table of Contents
+# Example of a C Program to Demonstrate Nested if-else Statement
+# Nested if-else Statements in C - Video Tutorial
+#include<stdio.h>
+
+void main()
+{
+int x=20,y=30;
+
+    if(x==20)
+    {
+        if(y==30)
+        {
+            printf("value of x is 20, and value of y is 30.");
+        }
+    }
+}
+Execution of the above code produces the following result.
+
+value of x is 20, and value of y is 30.
+
+
+
+
+
+
+	C else-if Statements
+
+else-if statements in C is like another if condition, it's used in a program when if statement having multiple decisions.
+
+The basic format of else if statement is:
+
+if(test_expression)
+{
+   //execute your code
+}
+else if(test_expression n)
+{
+   //execute your code
+}
+else
+{
+   //execute your code
+}
+Table of Contents
+# Example of a C Program to Demonstrate else if Statement
+# else if Statements in C - Video Tutorial
+#include<stdio.h>
+
+void main()
+{
+  int a, b;
+
+  printf("Please enter the value for a:");
+  scanf("%d", &a);
+
+  printf("\nPlease enter the value for b:");
+  scanf("%d", &b);
+
+  if (a > b)
+  {
+    printf("\n a is greater than b");
+  }
+  else if (b > a)
+  {
+    printf("\n b is greater than a");
+  }
+  else
+  {
+    printf("\n Both are equal");
+  }
+}
+
+
+
+
+
+	C goto Statement
+
+So far we have discussed the if statements and how it is used in C to control statement execution based on some decisions or conditions. The flow of execution also depends on other statements which are not based on conditions that can control the flow.
+
+C supports a unique form of a statement that is the goto Statement which is used to branch unconditionally within a program from one point to another. Although it is not a good habit to use the goto statement in C, there may be some situations where the use of the goto statement might be desirable.
+
+
+The goto statement is used by programmers to change the sequence of execution of a C program by shifting the control to a different part of the same program.
+
+The general form of the goto statement is:
+
+goto label;
+A label is an identifier required for goto statement to a place where the branch is to be made. A label is a valid variable name which is followed by a colon and is put immediately before the statement where the control needs to be jumped/transferred unconditionally.
+
+goto label;
+
+ - - -- -   -
+ - - - - - - - -
+
+label:
+
+statement - X;
+/* This the forward jump of goto statement */
+or
+
+label:
+
+ - - -- -   -
+ - - - - - - - -
+
+goto label;
+
+/*This is the backward jump of goto statement */
+Table of Contents
+# An Example of a C Program to Demonstrate goto Statement
+# goto Statement in C - Video Tutorial
+#include<stdio.h>
+
+void main()
+{
+   int age;
+
+   g: //label name
+     printf("you are Eligible\n");
+   s: //label name
+     printf("you are not Eligible");
+
+   printf("Enter you age:");
+   scanf("%d", &age);
+   if(age>=18)
+        goto g; //goto label g
+   else
+        goto s; //goto label s
+}
+
+
+
+
+
+
+
+
+
+	C switch Statement
+
+
+C switch statement is used when you have multiple possibilities for the if statement. Switch case will allow you to choose from multiple options. When we compare it to a general electric switchboard, you will have many switches in the switchboard but you will only select the required switch, similarly, the switch case allows you to set the necessary statements for the user.
+
+The basic format of the switch statement is:
+
+switch(variable)
+{
+case 1:
+   //execute your code
+break;
+
+case n:
+   //execute your code
+break;
+
+default:
+   //execute your code
+break;
+}
+After the end of each block it is necessary to insert a break statement because if the programmers do not use the break statement, all consecutive blocks of codes will get executed from every case onwards after matching the case block.
+
+Table of Contents
+# Example of a C Program to Demonstrate Switch Statement
+# switch Statements in C - Video Tutorial
+#include<stdio.h>
+
+void main()
+{
+    int a;
+    printf("Please enter a no between 1 and 5: ");
+    scanf("%d",&a);
+    
+    switch(a)
+    {
+    case 1:
+    printf("You chose One");
+    break;
+    
+    case 2:
+    printf("You chose Two");
+    break;
+
+    case 3:
+    printf("You chose Three");
+    break;
+
+    case 4:
+    printf("You chose Four");
+    break;
+
+    case 5:
+    printf("You chose Five.");
+    break;
+
+    default :
+    printf("Invalid Choice. Enter a no between 1 and 5");
+    break;
+    }
+
+} 
+
+
+
+
+
+Loop Control Structures------------------------------5th day
+
+
+
+
+
+	C Loops
+
+Sometimes it is necessary for the program to execute the statement several times. A loop executes a block of commands a specified number of times until a condition is met. In this tutorial, you will learn about all the looping statements of C programming along with their use.
+
+Table of Contents
+# What Is Loop?
+# C Loop Control Statements
+A computer is the most suitable machine for performing repetitive tasks, and it can perform a task thousands of times. Every programming language has the feature to instruct to do such repetitive tasks with the help of certain statements. The process of repeatedly executing a collection of statements is called looping. The statements get executed many numbers of times based on the condition. But if the condition is given in such logic that the repetition continues any number of times with no fixed condition to stop looping those statements, then this type of looping is called infinite looping.
+
+
+C supports the following types of loops:
+while loops
+do-while loops
+for loops
+All are slightly different and provide loops for different situations.
+
+Figure - Flowchart of Looping:
+
+
+Loop control statements are used to change the normal sequence of execution of the loop.
+
+Statement	Syntax	Description
+break statement	break;	It is used to terminate loop or switch statements.
+continue statement	continue;	It is used to suspend the current loop iteration and transfer control to the loop for the next iteration.
+goto statement	goto labelName;
+labelName: statement;
+
+It transfers the current program execution sequence to some other part of the program.
+
+
+
+
+
+
+
+	C while loops
+
+C while loops statement allows to repeatedly run the same block of code until a condition is met.
+
+while loop is a most basic loop in C programming. while loop has one control condition, and executes as long the condition is true.  The condition of the loop is tested before the body of the loop is executed, hence it is called an entry-controlled loop.
+
+The basic format of while loop statement is:
+
+While (condition)
+{
+   statement(s);
+   Incrementation;
+}
+Figure - Flowchart of while loop:
+
+
+Table of Contents
+# Example of a C Program to Demonstrate while loop
+# C while loops - Video Tutorial
+#include<stdio.h>
+ 
+int main ()
+{
+   /* local variable Initialization */   int n = 1,times=5;
+
+   /* while loops execution */   while( n <= times )
+   {
+      printf("C while loops: %d\n", n);
+      n++;
+   }
+ 
+   return 0;
+}
+
+
+
+
+
+
+
+	C do while loops
+
+
+C do while loops are very similar to the while loops, but it always executes the code block at least once and furthermore as long as the condition remains true. This is an exit-controlled loop.
+
+The basic format of do while loop statement is:
+
+do
+{
+   statement(s);
+
+}while( condition );
+Figure - Flowchart of do while loop:
+
+
+Table of Contents
+# Example of a C Program to Demonstrate do while loop
+# C do while loops - Video Tutorial
+#include<stdio.h>
+ 
+int main ()
+{
+   /* local variable Initialization */   int n = 1,times=5;
+
+   /* do loops execution */   do
+   {
+       printf("C do while loops: %d\n", n);
+       n = n + 1;
+   }while( n <= times );
+ 
+   return 0;
+}
+
+
+
+
+
+	C for loops
+
+
+C for loops is very similar to a while loops in that it continues to process a block of code until a statement becomes false, and everything is defined in a single line. The for loop is also entry-controlled loop.
+
+The basic format of for loop statement is:
+
+for ( init; condition; increment )
+{
+   statement(s);
+}
+Figure - Flowchart of for loop:
+
+
+Table of Contents
+# Example of a C Program to Demonstrate for loop
+# C for loops - Video Tutorial
+#include<stdio.h> 
+ 
+int main ()
+{
+  /* local variable Initialization */  int n,times=5;;
+    
+   /* for loops execution */   for( n = 1; n <= times; n = n + 1 )
+   {
+      printf("C for loops: %d\n", n);
+   }
+ 
+   return 0;
+}
+
+
+
+
+
+
+
+
+Functions----------------------------------------6th day
+
+
+
+
+
+	C functions
+
+C function is a self-contained block of statements that can be executed repeatedly whenever we need it.
+
+Table of Contents
+# Benefits of using the function in C
+# There are two types of functions in C
+# Parts of Function
+# 1. Function Prototype
+# 2. Function Definition
+# 3. Calling a function in C
+# Program to illustrate the Addition of Two Numbers using User Defined Function
+The function provides modularity.
+The function provides reusable code.
+In large programs, debugging and editing tasks is easy with the use of functions.
+The program can be modularized into smaller parts.
+Separate function independently can be developed according to the needs.
+Built-in(Library) Functions
+The system provided these functions and stored in the library. Therefore it is also called Library Functions.
+e.g. scanf(), printf(), strcpy, strlwr, strcmp, strlen, strcat etc.
+To use these functions, you just need to include the appropriate C header files.
+User Defined Functions These functions are defined by the user at the time of writing the program.
+Function Prototype (function declaration)
+Function Definition
+Function Call
+dataType functionName (Parameter List)
+int addition();
+returnType functionName(Function arguments){
+  //body of the function 
+}
+int addition()
+{
+
+}
+#include<stdio.h>
+
+/* function declaration */int addition();
+
+int main()
+{   
+    //local variable definition
+    int answer;
+    
+    answer = addition(); //calling a function to get addition value.
+    printf("The addition of the two numbers is: %d\n",answer);
+    return 0;
+}
+
+//function returning the addition of two numbers
+int addition()
+{
+    int num1 = 10, num2 = 5; // local variable definition
+    return num1+num2;
+}
+The addition of the two numbers is: 15
+
+
+
+
+
+
+
+
+
+	C functions Arguments
+
+While calling a function, the arguments can be passed to a function in two ways, Call by value and call by reference.
+
+Type	Description
+Call by Value	
+The actual parameter is passed to a function.
+New memory area created for the passed parameters, can be used only within the function.
+The actual parameters cannot be modified here.
+Call by Reference	
+Instead of copying variable; an address is passed to function as parameters.
+Address operator(&) is used in the parameter of the called function.
+Changes in function reflect the change of the original variables.
+Table of Contents
+# Call by Value
+# Call by Reference
+#include<stdio.h>
+
+//function declaration
+int addition(int num1, int num2);
+
+int main()
+{
+    //local variable definition
+    int answer;
+    int num1 = 10;
+    int num2 = 5;
+    
+    //calling a function to get addition value
+    answer = addition(num1,num2);
+
+    printf("The addition of two numbers is: %d\n",answer);
+    return 0;
+}
+
+//function returning the addition of two numbers
+int addition(int a,int b)
+{
+    return a + b;
+}
+The addition of two numbers is: 15
+#include<stdio.h>
+
+//function declaration
+int addition(int *num1, int *num2);
+
+int main()
+{
+    //local variable definition
+    int answer;
+    int num1 = 10;
+    int num2 = 5;
+    
+    //calling a function to get addition value
+    answer = addition(&num1,&num2);
+
+    printf("The addition of two numbers is: %d\n",answer);
+    return 0;
+}
+
+//function returning the addition of two numbers
+int addition(int *a,int *b)
+{
+    return *a + *b;
+}
+The addition of two numbers is: 15
+
+
+
+
+
+
+
+
+	C Library Functions
+
+The C library functions are provided by the system and stored in the library. The C library function is also called an inbuilt function in C programming.
+
+To use Inbuilt Function in C, you must include their respective header files, which contain prototypes and data definitions of the function.
+
+#include<stdio.h>
+#include<ctype.h>
+#include<math.h>
+
+void main()
+{
+  int i = -10, e = 2, d = 10; //Variables Defining and Assign values
+  float rad = 1.43;
+  double d1 = 3.0, d2 = 4.0;
+
+  printf("%d\n", abs(i));
+  printf("%f\n", sin(rad));
+  printf("%f\n", cos(rad));
+  printf("%f\n", exp(e));
+  printf("%d\n", log(d));
+  printf("%f\n", pow(d1, d2));    
+}
+
+
+
+
+
+
+
+	C Variable Scope
+
+A scope is a region of the program, and the scope of variables refers to the area of the program where the variables can be accessed after its declaration.
+
+In C every variable defined in scope. You can define scope as the section or region of a program where a variable has its existence; moreover, that variable cannot be used or accessed beyond that region.
+
+In C programming, variable declared within a function is different from a variable declared outside of a function. The variable can be declared in three places. These are:
+
+Position	Type
+Inside a function or a block.	local variables
+Out of all functions.	Global variables
+In the function parameters.	Formal parameters
+So, now let's have a look at each of them individually.
+
+
+Table of Contents
+# Local Variables
+# Local Scope or Block Scope
+# Global Variables
+# Global Scope
+# Global Variable Initialization
+Variables that are declared within the function block and can be used only within the function is called local variables.
+
+A local scope or block is collective program statements put in and declared within a function or block (a specific region enclosed with curly braces) and variables lying inside such blocks are termed as local variables. All these locally scoped statements are written and enclosed within left ({) and right braces (}) curly braces. There's a provision for nested blocks also in C which means there can be a block or a function within another block or function. So it can be said that variable(s) that are declared within a block can be accessed within that specific block and all other inner blocks of that block, but those variables cannot be accessed outside the block.
+
+#include <stdio.h>
+ 
+int main ()
+{
+    //local variable definition and initialization
+    int x,y,z;
+     
+    //actual initialization
+    x = 20;
+    y = 30;
+    z = x + y;
+     
+    printf ("value of x = %d, y = %d and z = %d\n", x, y, z);
+     
+    return 0;
+}
+Variables that are declared outside of a function block and can be accessed inside the function is called global variables.
+
+
+Global variables are defined outside a function or any specific block, in most of the case, on the top of the C program. These variables hold their values all through the end of the program and are accessible within any of the functions defined in your program.
+
+Any function can access variables defined within the global scope, i.e., its availability stays for the entire program after being declared.
+
+#include <stdio.h>
+
+//global variable definition
+int z;
+
+int main ()
+{
+    //local variable definition and initialization
+    int x,y;
+     
+    //actual initialization
+    x = 20;
+    y = 30;
+    z = x + y;
+     
+    printf ("value of x = %d, y = %d and z = %d\n", x, y, z);
+     
+    return 0;
+}
+After defining a local variable, the system or the compiler won't be initializing any value to it. You have to initialize it by yourself. It is considered good programming practice to initialize variables before using. Whereas in contrast, global variables get initialized automatically by the compiler as and when defined. Here's how based on datatype; global variables are defined.
+
+datatype	Initial Default Value
+int	0
+char	'\0'
+float	0
+double	0
+pointer	NULL
+
+
+
+
+
+
+	C Recursion
+
+
+C is a powerful programming language having capabilities like an iteration of a set of statements 'n' number of times. The same concepts can be done using functions also. In this chapter, you will be learning about recursion concept and how it can be used in the C program.
+
+Table of Contents
+# What is Recursion
+# Factorial Program in C Using Recursion
+# Fibonacci Program in C Using Recursion
+Recursion can be defined as the technique of replicating or doing again an activity in a self-similar way calling itself again and again, and the process continues till specific condition reaches. In the world of programming, when your program lets you call that specific function from inside that function, then this concept of calling the function from itself can be termed as recursion, and the function in which makes this possible is called recursive function.
+
+Here's an example of how recursion works in a program:
+
+void rec_prog(void) {
+  rec_prog(); //function calls itself
+}
+
+int main(void) {
+  rec_prog();
+  return 0;
+}
+C program allows you to do such calling of function within another function, i.e., recursion. But when you implement this recursion concept, you have to be cautious in defining an exit or terminating condition from this recursive function, or else it will continue to an infinite loop, so make sure that the condition is set within your program.
+
+
+#include<stdio.h>
+#include<conio.h>
+
+int fact(int f) {
+  if (f==0 || f==1) {
+    printf("Calculated Factorial");
+    return 1;
+  }
+  return f * fact(f - 1);
+}
+
+int main(void) {
+  int f = 12;
+  printf("The factorial of %d is %d \n", f, fact(f));
+  getch();
+  return 0;
+}
+Calculated Factorial
+The factorial of 12 is 479001600
+#include<stdio.h>
+#include<conio.h>
+
+int fibo(int g) {
+  if (g == 0) {
+    return 0;
+  }
+
+  if (g == 1) {
+    return 1;
+  }
+  return fibo(g - 1) + fibo(g - 2);
+}
+
+int main(void) {
+  int g;
+  printf("Calculated Fibonacci\n");
+  for (g = 0; g < 10; g++) {
+    printf("%d \t ", fibo(g));
+  }
+  getch();
+  return 0;
+}
+Calculated Fibonacci
+0        1       1       2       3       5       8       13      21      34
+
+
+
+
+
+	C Storage Classes
+
+
+
+Storage Classes are associated with variables for describing the features of any variable or function in the C program. These storage classes deal with features such as scope, lifetime and visibility which helps programmers to define a particular variable during the program's runtime. These storage classes are preceded by the data type which they had to modify.
+
+There are four storage classes types in C:
+auto
+register
+static
+extern
+Table of Contents
+# auto Storage Class
+# register Storage Class
+# static storage class
+# extern Storage class
+auto comes by default with all local variables as its storage class. The keyword auto is used to define this storage class explicitly
+
+
+int roll; // contains auto by default
+is the same as:
+
+auto int roll;    // in addition, we can use auto keyword
+The above example has a variable name roll with auto as a storage class. This storage class can only be implemented with the local variables.
+
+
+This storage class is implemented for classifying local variables whose value needs to be saved in a register in place of RAM (Random Access Memory). This is implemented when you want your variable the maximum size equivalent to the size of the register. It uses the keyword register.
+
+register int  counter;
+Register variables are used when implementing looping in counter variables to make program execution fast. Register variables work faster than variables stored in RAM (primary memory).
+
+for(register int counter=0; counter<=9; counter++)
+{
+// loop body
+}
+This storage class uses static variables that are used popularly for writing programs in C language. Static variables preserve the value of a variable even when the scope limit exceeds. Static storage class has its scope local to the function in which it is defined.
+
+
+On the other hand, global static variables can be accessed in any part of your program. The default value assigned is '0' by the C compiler. The keyword used to define this storage class is static.
+
+
+static int var = 6;
+The extern storage class is used to feature a variable to be used from within different blocks of the same program. Mainly, a value is set to that variable which is in a different block or function and can be overwritten or altered from within another block as well. Hence it can be said that an extern variable is a global variable which is assigned with a value that can be accessed and used within the entire program. Moreover, a global variable can be explicitly made an extern variable by implementing the keyword 'extern' preceded the variable name.
+
+Here are some examples of extern:
+
+#include <stdio.h>
+
+int val;
+extern void funcExtern();
+ 
+main() 
+{
+   val = 10;
+   funcExtern();
+}
+Another example:
+
+#include <stdio.h>
+
+extern int val; // now the variable val can be accessed and used from anywhere
+
+// within the program
+void funcExtern() 
+{
+   printf("Value is: %d\n", val);
+}
+
+
+
+
+
+
+Preprocessors and Header Files-----------------------7th day
+
+
+	C preprocessors
+
+
+
+The preprocessor is a program invoked by the compiler that modifies the source code before the actual composition takes place.
+
+To use any preprocessor directives, first, we have to prefix them with pound symbol #.
+
+The following section lists all preprocessor directives:
+
+Category	Directive	Description
+Macro substitution division	#include	File include
+#define
+#undif	Macro define, Macro undefine
+#ifdef
+#ifndef	If macro defined, If macro not defined
+File inclusion division	#if
+#elif
+#else
+#endif	If, Else, ifElse, End if
+Compiler control division	#line
+#error
+#pragma	Set line number, Abort compilation, Set compiler option
+#include <stdio.h>
+
+/* #define macro_name character_sequence */
+#define LIMIT 10
+
+int main()
+{
+    int counter;
+    for(counter =1; counter <=LIMIT; counter++)
+    {
+        printf("%d\n",counter);
+    }
+return 0;
+}
+In the above example for loop will run ten times.
+
+
+#include <stdio.h>
+#include "header.h"
+#include <stdio.h> tell the compiler to add stdio.h file from System Libraries to the current source file, and #include "header.h" tells the compiler to get header.h from the local directory.
+
+#undef  LIMIT
+#define  LIMIT 20
+This tells the compiler to undefine existing LIMIT and set it as 20.
+
+#ifndef LIMIT
+   #define LIMIT 50
+#endif
+This tells the compiler to define LIMIT, only if LIMIT isn't already defined.
+
+
+#ifdef LIMIT
+   /* Your statements here */#endif
+This tells the compiler to do the process the statements enclosed if LIMIT is defined.
+
+
+
+
+
+
+	C Header Files
+
+
+C language is famous for its different libraries and the predefined functions pre-written within it. These make programmer's effort a lot easier. In this tutorial, you will be learning about C header files and how these header files can be included in your C program and how it works within your C language.
+
+Table of Contents
+# What are the Header Files
+# How include Works
+# Writing of Single and Multiple uses of Header files
+Header files are helping file of your C program which holds the definitions of various functions and their associated variables that needs to be imported into your C program with the help of pre-processor #include statement. All the header file have a '.h' an extension that contains C function declaration and macro definitions. In other words, the header files can be requested using the preprocessor directive #include. The default header file that comes with the C compiler is the stdio.h.
+
+
+Including a header file means that using the content of header file in your source program. A straightforward practice while programming in C or C++ programs is that you can keep every macro, global variables, constants, and other function prototypes in the header files. The basic syntax of using these header files is:
+
+#include <file>
+or
+
+
+#include "file"
+This kind of file inclusion is implemented for including system oriented header files. This technique (with angular braces) searches for your file-name in the standard list of system directories or within the compiler's directory of header files. Whereas, the second kind of header file is used for user-defined header files or other external files for your program. This technique is used to search for the file(s) within the directory that contains the current file.
+
+C's #include preprocessor directive statement tries to go through the C preprocessors to scan for a specific file, such as input, before following the rest of your existing source file.  Let us take an example where you may think of having a header file karl.h having the following statement:
+
+char *example (void);
+then, you have a main C source program which seems something like this:
+
+
+#include<stdio.h>
+
+int x;
+#include "karl.h"
+int main () 
+{
+   printf("Program done");
+      return 0;
+}
+So, the compiler will see the entire C program and token stream as:
+
+#include<stdio.h>
+
+int x;
+char * example (void);
+int main () 
+{
+   printf("Program done");
+      return 0;
+}
+You can use various header files based on some conditions. In case, when a header file needs to be included twice within your program, your compiler will be going to process the contents inside it - twice which will eventually lead to an error in your program. So to eliminate this, you have to use conditional preprocessor directives. Here's the syntax:
+
+#ifndef HEADER_FILE_NAME
+#define HEADER_FILE_NAME
+   the entire header file
+#endif
+Again, sometimes it's essential for selecting several diverse header files based on some requirement to be incorporated into your program. For this also multiple conditional preprocessors can be used like this:
+
+#if FIRST_SYSTEM
+   #include "sys.h"
+#elif SEC_SYSTEM
+   #include "sys2.h"
+#elif THRID_SYSTEM
+   ....
+#endif
+
+
+
+
+
+
+
+	C Custom Header Files
+
+
+
+
+
+You can create your custom header files in C; it helps you to manage user-defined methods, global variables, and structures in a separate file, which can be used in different modules.
+
+For example, I am calling an external function named swap in my main.c file.
+
+#include<stdio.h>
+#include"swap.h"
+
+void main()
+{
+    int a=20;
+    int b=30;
+    swap (&a,&b);
+    printf ("a=%d\n", a);
+    printf ("b=%d\n",b);
+}
+Swap method is defined in swap.h file, which is used to swap two numbers by using a temporary variable.
+
+void swap (int* a, int* b)
+{
+    int tmp;
+    tmp = *a;
+    *a = *b;
+    *b = tmp;
+}
+Note:
+
+header file name must have a .h file extension.
+In this example, I have named swap.h header file.
+Instead of writing <swap.h> use this terminology swap.h for include custom header file.
+Both files swap.h and main.c must be in the same folder.
+
+
+
+
+
+
+
+
+Arrays and Strings ----------------------------------8th day
+
+
+
+	C Arrays
+
+The array is a data structure in C programming, which can store a fixed-size sequential collection of elements of the same data type.
+
+
+
+For example, if you want to store ten numbers, it is easier to define an array of 10 lengths, instead of defining ten variables.
+
+
+In the C programming language, an array can be One-Dimensional, Two-Dimensional, and Multidimensional.
+
+Table of Contents
+# Define an Array in C
+# Initialize an Array in C
+# A Pictorial Representation of the Array:
+# Accessing Array Elements in C
+type arrayName [ size ];
+This is called a one-dimensional array. An array type can be any valid C data types, and array size must be an integer constant greater than zero.
+
+
+double amount[5];
+Arrays can be initialized at declaration time:
+
+int age[5]={22,25,30,32,35};
+Initializing each element separately in a loop:
+
+int myArray[5];
+int n = 0;
+
+// Initializing elements of array seperately
+for(n=0;n<sizeof(myArray)/sizeof(myArray[0]);n++)
+{
+  myArray[n] = n; 
+}
+
+int myArray[5];
+int n = 0;
+
+// Initializing elements of array seperately
+for(n=0;n<sizeof(myArray)/sizeof(myArray[0]);n++)
+{
+  myArray[n] = n;
+}
+
+int a = myArray[3]; // Assigning 3rd element of array value to integer 'a'.
+
+
+
+
+
+
+
+
+	C strings
+
+
+
+In C programming, the one-dimensional array of characters are called strings, which is terminated by a null character '\0'.
+
+Table of Contents
+# Strings Declaration in C
+# Strings Initialization in C
+# Memory Representation of Above Defined String in C
+There are two ways to declare a string in C programming:
+
+Through an array of characters.
+
+char name[6];
+Through pointers.
+
+char *name;
+char name[6] = {'C', 'l', 'o', 'u', 'd', '\0'};
+or
+
+char name[] = "Cloud";
+#include<stdio.h>
+
+int main ()
+{
+   char name[6] = {'C', 'l', 'o', 'u', 'd', '\0'};
+
+   printf("Tutorials%s\n", name );
+
+   return 0;
+}
+TutorialsCloud
+
+
+
+
+
+Pointers-------------------------------------9th day
+
+
+
+	C Pointers
+
+
+
+A pointer is a variable in C, and the pointers value is the address of a memory location.
+
+Table of Contents
+# Pointer Definition in C
+# Benefits of using Pointers in C
+# How to Use Pointers in C
+type *variable_name;
+int  *width;
+char  *letter;
+Pointers allow the passing of arrays and strings to functions more efficiently.
+Pointers make it possible to return more than one value from the function.
+Pointers reduce the length and complexity of a program.
+Pointers increase the processing speed.
+Pointers save the memory.
+#include<stdio.h>
+
+int main ()
+{
+   int  n = 20, *pntr;  //actual and pointer variable declaration
+
+   pntr = &n;  //store address of n in pointer variable
+
+   printf("Address of n variable: %x\n", &n  );
+
+   //address stored in pointer variable
+   printf("Address stored in pntr variable: %x\n", pntr );
+
+   //access the value using the pointer
+   printf("Value of *pntr variable: %d\n", *pntr );
+
+   return 0;
+}
+Address of n variable: 2cb60f04
+Address stored in pntr variable: 2cb60f04
+
+Value of *pntr variable: 20
+
+
+
+
+
+	C Memory Management
+
+
+
+C language provides many functions that come in header files to deal with the allocation and management of memories. In this tutorial, you will find brief information about managing memory in your program using some functions and their respective header files.
+
+Table of Contents
+# Management of Memory
+# static memory allocations
+# dynamic memory allocations
+Almost all computer languages can handle system memory. All the variables used in your program occupies a precise memory space along with the program itself, which needs some memory for storing itself (i.e., its own program). Therefore, managing memory utmost care is one of the major tasks a programmer must keep in mind while writing codes.
+
+When a variable gets assigned in a memory in one program, that memory location cannot be used by another variable or another program. So, C language gives us a technique of allocating memory to different variables and programs.
+
+There are two types used for allocating memory. These are:
+
+
+In the static memory allocation technique, allocation of memory is done at compilation time, and it stays the same throughout the entire run of your program. Neither any changes will be there in the amount of memory nor any change in the location of memory.
+
+In dynamic memory allocation technique, allocation of memory is done at the time of running the program, and it also has the facility to increase/decrease the memory quantity allocated and can also release or free the memory as and when not required or used. Reallocation of memory can also be done when required. So, it is more advantageous, and memory can be managed efficiently.
+
+
+
+
+
+
+
+
+	C Dynamic Memory Allocations
+
+
+
+
+malloc, calloc, or realloc are the three functions used to manipulate memory. These commonly used functions are available through the stdlib library so you must include this library to use them.
+
+Table of Contents
+# C - Dynamic memory allocation functions
+# malloc function
+# Example program for malloc() in C
+# calloc function
+# Example program for calloc() in C
+# realloc function
+# free function
+# Example program for realloc() and free()
+Function	Syntax
+malloc()	malloc (number *sizeof(int));
+calloc()	calloc (number, sizeof(int));
+realloc()	realloc (pointer_name, number * sizeof(int));
+free()	free (pointer_name);
+malloc function is used to allocate space in memory during the execution of the program.
+malloc function does not initialize the memory allocated during execution.  It carries garbage value.
+malloc function returns null pointer if it couldn't able to allocate requested amount of memory.
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+void main()
+{
+    char *mem_alloc;
+    //memory allocated dynamically
+    mem_alloc = malloc( 15 * sizeof(char) );
+
+    if(mem_alloc== NULL )
+    {
+        printf("Couldn't able to allocate requested memory\n");
+    }
+    else
+    {
+        strcpy( mem_alloc,"w3schools.in");
+    }
+
+    printf("Dynamically allocated memory content : %s\n", mem_alloc );
+    free(mem_alloc);
+}
+Dynamically allocated memory content : w3schools.in
+calloc () function and malloc () function is similar. But calloc () allocates memory for zero-initializes. However, malloc () does not.
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+void main()
+{
+    char *mem_alloc;
+    //memory allocated dynamically
+    mem_alloc = calloc( 15, sizeof(char) );
+
+    if( mem_alloc== NULL )
+    {
+        printf("Couldn't able to allocate requested memory\n");
+    }
+    else
+    {
+        strcpy( mem_alloc,"w3schools.in");
+    }
+
+    printf("Dynamically allocated memory content : %s\n", mem_alloc );
+    free(mem_alloc);
+}
+Dynamically allocated memory content : w3schools.in
+realloc function modifies the allocated memory size by malloc and calloc functions to new size.
+If enough space doesn't exist in the memory of the current block to extend, a new block is allocated for the full size of reallocation, then copies the existing data to the new block and then frees the old block.
+free function frees the allocated memory by malloc (), calloc (), realloc () functions.
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+void main()
+{
+    char *mem_alloc;
+    //memory allocated dynamically
+    mem_alloc = malloc( 20 * sizeof(char) );
+
+    if( mem_alloc == NULL )
+    {
+        printf("Couldn't able to allocate requested memory\n");
+    }
+    else
+    {
+        strcpy( mem_alloc,"w3schools.in");
+    }
+
+    printf("Dynamically allocated memory content  : " \ "%s\n", mem_alloc );
+    mem_alloc=realloc(mem_alloc,100*sizeof(char));
+
+    if( mem_alloc == NULL )
+    {
+        printf("Couldn't able to allocate requested memory\n");
+    }
+    else
+    {
+        strcpy( mem_alloc,"space is extended upto 100 characters");
+    }
+
+    printf("Resized memory : %s\n", mem_alloc );
+    free(mem_alloc);
+}
+Dynamically allocated memory content : w3schools.in
+Resized memory: space is extended up to 100 characters
+
+
+
+
+
+Structure and Union ----------------------------10th day
+
+
+
+	C Structures
+
+
+
+The structure is a user-defined data type in C, which is used to store a collection of different kinds of data.
+
+
+
+The structure is something similar to an array; the only difference is array is used to store the same data types.
+struct keyword is used to declare the structure in C.
+Variables inside the structure are called members of the structure.
+Table of Contents
+# Defining a Structure in C
+# Accessing Structure Members in C
+struct structureName
+{
+   //member definitions
+};
+struct Courses
+{
+   char  WebSite[50];
+   char  Subject[50];
+   int   Price;
+};
+#include<stdio.h>
+#include<string.h>
+ 
+struct Courses
+{
+   char  WebSite[50];
+   char  Subject[50];
+   int   Price;
+};
+ 
+void main( )
+{
+   struct Courses C;
+   
+   //Initialization
+   strcpy( C.WebSite, "w3schools.in");
+   strcpy( C.Subject, "The C Programming Language"); 
+   C.Price = 0;
+   
+   //Print
+   printf( "WebSite : %s\n", C.WebSite);
+   printf( "Book Author : %s\n", C.Subject);
+   printf( "Book Price : %d\n", C.Price);
+}
+WebSite : w3schools.in
+Book Author: The C Programming Language
+
+
+
+
+	C Unions
+
+
+Unions are user-defined data type in C, which is used to store a collection of different kinds of data, just like a structure. However, with unions, you can only store information in one field at any one time.
+
+Unions are like structures except it used less memory.
+The keyword union is used to declare the structure in C.
+Variables inside the union are called members of the union.
+Table of Contents
+# Defining a Union in C
+# Accessing Union Members in C
+union unionName
+{
+   //member definitions
+};
+union Courses
+{
+   char  WebSite[50];
+   char  Subject[50];
+   int   Price;
+};
+#include<stdio.h>
+#include<string.h>
+ 
+union Courses
+{
+   char  WebSite[50];
+   char  Subject[50];
+   int   Price;
+};
+ 
+void main( )
+{
+   union Courses C;
+   
+   strcpy( C.WebSite, "w3schools.in");   
+   printf( "WebSite : %s\n", C.WebSite);
+      
+   strcpy( C.Subject, "The C Programming Language");    
+   printf( "Book Author : %s\n", C.Subject);
+   
+   C.Price = 0;
+   printf( "Book Price : %d\n", C.Price);
+}
+WebSite : w3schools.in
+Book Author: The C Programming Language
+
+
+
+
+
+
+
+
+	C typedef
+
+
+
+
+
+
+C is such a dominant language of its time and now, that even you can name those primary data type of your own and can create your own named data type by blending data type and its qualifier.
+
+Table of Contents
+# The typedef keyword in C
+# Various Application of typedef
+# Using typedef with Pointers
+typedef is a C keyword implemented to tell the compiler for assigning an alternative name to C's already exist data types. This keyword, typedef typically employed in association with user-defined data types in cases if the names of datatypes turn out to be a little complicated or intricate for a programmer to get or to use within programs. The typical format for implementing this typedef keyword is:
+
+typedef <existing_names_of_datatype> <alias__userGiven_name>;
+Here's a sample code snippet as of how typedef command works in C:
+
+typedef signed long slong;
+slong in the statement as mentioned above is used for a defining a signed qualified long kind of data type. Now the thing is this 'slong', which is an user-defined identifier can be implemented in your program for defining any signed long variable type within your C program. This means:
+
+slong g, d;
+will allow you to create two variables name 'g' and 'd' which will be of type signed long and this quality of signed long is getting detected from the slong (typedef), which already defined the meaning of slong in your program.
+
+The concept of typedef can be implemented for defining a user-defined data type with a specific name and type. This typedef can also be used with structures of C language. Here how it looks like:
+
+typedef struct
+{
+    type first_member;
+    type sec_member;
+    type thrid_member;
+} nameOfType;
+Here nameOfType correspond to the definition of structure allied with it. Now, this nameOfType can be implemented by declaring a variable of this structure type.
+
+nameOfType type1, type2;
+Simple Program of structure in C with the use of typedef:
+
+#include<stdio.h>
+#include<string.h>
+
+typedef struct professor
+{
+    char p_name[50];
+    int p_sal;
+} prof;
+
+void main(void)
+{
+    prof pf;
+    printf("\n Enter Professor details: \n  \n");
+    printf("\n Enter Professor name:\t");
+    scanf("% s", pf.p_name);
+    printf("\n Enter professor salary: \t");
+    scanf("% d", &pf.p_sal);
+    printf("\n Input done ! ");
+}
+typedef can be implemented for providing a pseudo name to pointer variables as well. In this below-mentioned code snippet, you have to use the typedef, as it is advantageous for declaring pointers.
+
+int* a;
+The binding of pointer (*) is done to the right here. With this kind of statement declaration, you are in fact declaring an as a pointer of type int (integer).
+
+typedef int* pntr;
+pntr g, h, i;
+
+
+typedef int* pntr;
+pntr g, h, i;
+
+
+
+
+File Handlings  --------------------------------------11th day
+
+	C File Handling
+
+C files I/O functions handle data on a secondary storage device, such as a hard disk.
+
+C can handle files as Stream-oriented data (Text) files, and System oriented data (Binary) files.
+
+
+Stream-oriented data files	The data is stored in the same manner as it appears on the screen. The I/O operations like buffering, data conversions, etc. take place automatically.
+System-oriented data files	System-oriented data files are more closely associated with the OS and data stored in memory without converting into text format.
+Table of Contents
+# C File Operations
+# Steps for Processing a File
+Five major operations can be performed on file are:
+
+Creation of a new file.
+Opening an existing file.
+Reading data from a file.
+Writing data in a file.
+Closing a file.
+Declare a file pointer variable.
+Open a file using fopen() function.
+Process the file using the suitable function.
+Close the file using fclose() function.
+To handling files in C, file input/output functions available in the stdio library are:
+
+Function	Uses/Purpose
+fopen	Opens a file.
+fclose	Closes a file.
+getc	Reads a character from a file
+putc	Writes a character to a file
+getw	Read integer
+putw	Write an integer
+fprintf	Prints formatted output to a file
+fscanf	Reads formatted input from a file
+fgets	Read string of characters from a file
+fputs	Write string of characters to file
+feof	Detects end-of-file marker in a file
+
+
+
+	C fopen
+
+
+
+C fopen is a C library function used to open an existing file or create a new file.
+
+The basic format of fopen is:
+
+FILE *fopen( const char * filePath, const char * mode );
+Table of Contents
+# Parameters
+# Return Value
+filePath: The first argument is a pointer to a string containing the name of the file to be opened.
+mode: The second argument is an access mode.
+C fopen() access mode can be one of the following values:
+
+Mode	Description
+r	Opens an existing text file.
+w	Opens a text file for writing if the file doesn't exist then a new file is created.
+a	Opens a text file for appending(writing at the end of existing file) and create the file if it does not exist.
+r+	Opens a text file for reading and writing.
+w+	Open for reading and writing and create the file if it does not exist. If the file exists then make it blank.
+a+	Open for reading and appending and create the file if it does not exist. The reading will start from the beginning, but writing can only be appended.
+C fopen function returns NULL in case of a failure and returns a FILE stream pointer on success.
+
+
+#include<stdio.h>
+
+int main()
+{
+    FILE *fp;
+    fp = fopen("fileName.txt","w");
+    return 0; 
+}
+The above example will create a file called fileName.txt.
+The w means that the file is being opened for writing, and if the file does not exist then the new file will be created.
+
+
+
+
+	C fclose
+
+fclose() function is C library function and it's used to releases the memory stream, opened by fopen() function.
+
+The basic format of fclose is:
+
+int fclose( FILE * stream );
+C fclose returns EOF in case of failure and returns 0 on success.
+
+#include<stdio.h>
+
+int main()
+{
+    FILE *fp;
+    fp = fopen("fileName.txt","w");
+    fprintf(fp, "%s", "Sample Texts");
+    fclose(fp);
+    return 0; 
+}
+The above example will create a file called fileName.txt.
+The w means that the file is being opened for writing, and if the file does not exist then the new file will be created.
+The fprintf function writes Sample Texts text to the file.
+The fclose function closes the file and releases the memory stream.
+
+
+
+
+	C putc
+
+
+
+putc() function is C library function, and it's used to write a character to the file. This function is used for writing a single character in a stream along with that it moves forward the indicator's position.
+
+int putc( int c, FILE * stream );
+int main (void)
+{
+    FILE * fileName;
+    char ch;
+    fileName = fopen("anything.txt","wt");
+        for (ch = 'D' ; ch <= 'S' ; ch++) {
+            putc (ch , fileName);
+        }
+    fclose (fileName);
+    return 0;
+}
+
+
+
+
+
+
+	C getc
+
+
+getc() function is the C library function, and it's used to read a character from a file that has been opened in read mode by fopen() function.
+
+int getc( FILE * stream );
+getc() function returns the next requested object from the stream on success.
+Character values are returned as an unsigned char cast to an int or EOF on the end of the file or error.
+The function feof() and ferror() to distinguish between end-of-file and error must be used.
+#include<stdio.h>
+ 
+int main()
+{
+  FILE *fp = fopen("fileName.txt", "r");
+  int ch = getc(fp);
+  while (ch != EOF)
+  {
+    //To display the contents of the file on the screen
+    putchar(ch);
+    ch = getc(fp);
+  }
+   
+  if (feof(fp))
+     printf("\n Reached the end of file.");
+  else
+     printf("\n Something gone wrong.");
+  fclose(fp);
+     
+  getchar();
+  return 0;
+}
+
+
+	
+
+
+
+	C getw
+
+
+C getw function is used to read an integer from a file that has been opened in read mode. It is a file handling function, which is used for reading integer values.
+
+int getw( FILE * stream );
+
+
+	C putw
+C putw function is used to write an integer to the file.
+
+int putw( int c, FILE * stream );
+int main (void)
+{
+   FILE *fileName;
+   int i=2, j=3, k=4, n;
+   fileName = fopen ("anything.c","w");
+   putw(i, fileName);
+   putw(j, fileName);
+   putw(k, fileName);
+   fclose(fileName);
+ 
+   fileName = fopen ("test.c","r");
+   while(getw(fileName)! = EOF)
+   {
+      n= getw(fileName);
+      printf("Value is %d \t: ", n);
+   }
+   fclose(fp);
+   return 0;
+}
+
+
+
+	C fprintf
+
+C fprintf function pass arguments according to the specified format to the file indicated by the stream. This function is implemented in file related programs for writing formatted data in any file.
+
+int fprintf(FILE *stream, const char *format, ...)
+int main (void) 
+{
+   FILE *fileName;
+   fileName = fopen("anything.txt","r");
+   fprintf(fileName, "%s %s %d", "Welcome", "to",  2018);
+   fclose(fileName);
+   return(0);
+}
+
+
+
+	C fscanf
+
+
+C fscanf function reads formatted input from a file. This function is implemented in file related programs for reading formatted data from any file that is specified in the program.
+
+int fscanf(FILE *stream, const char *format, ...)
+Its return the number of variables that are assigned values, or EOF if no assignments could be made.
+
+
+int main()
+{
+    char str1[10], str2[10];
+    int yr;
+    FILE* fileName;
+    fileName = fopen("anything.txt", "w+");
+    fputs("Welcome to", fileName);
+    rewind(fileName);
+    fscanf(fileName, "%s %s %d", str1, str2, &yr);
+    printf("----------------------------------------------- \n");
+    printf("1st word %s \t", str1);
+    printf("2nd word  %s \t", str2);
+    printf("Year-Name  %d \t", yr);
+    fclose(fileName);
+    return (0);
+}
+
+
+
+
+
+
+
+	C fputs
+
+
+
+C fputs function is implemented in file related programs for writing string to any particular file.
+
+int fputs(const char *str, FILE *stream)
+#include<stdio.h> 
+int main()
+{
+    FILE *fp;
+    fp = fopen("fileName.txt","w");
+
+    fputs("This is a sample text file.", fp);
+    fputs("This file contains some sample text data.", fp);
+
+    fclose(fp);
+    return 0; 
+}
+
+
+
+
+
+
+
+	C fgets
+
+C fgets function is implemented in file related programs for reading strings from any particular file. It gets the strings 1 line each time.
+
+char *fgets(char *str, int n, FILE *stream)
+void main(void)
+{
+    FILE* fileName;
+    char ch[100];
+    fileName = fopen("anything.txt", "r");
+    printf("%s", fgets(ch, 50, fileName));
+    fclose(fileName);
+}
+On success, the function returns the same str parameter
+C fgets function returns a NULL pointer in case of a failure.
+
+
+
+
+
+
+
+
+
+	C feof
+
+
+
+C feof function is used to determine if the end of the file (stream), specified has been reached or not. This function keeps on searching the end of file (eof) in your file program.
+
+int feof(FILE *stream)
+Here is a program showing the use of feof().
+
+
+#include<stdio.h> 
+int main()
+{ 
+FILE *filee = NULL; 
+char buf[50]; 
+filee = fopen("infor.txt","r"); 
+if(filee) 
+    { 
+         while(!feof(filee)) 
+         { 
+             fgets(buf, sizeof(buf), filee); 
+             puts(buf); 
+         } 
+         fclose(filee); 
+   } 
+    return 0; 
+}
+
+
+
+
+
+
+C 99/89 ----------------------------------------12th day
+
+
+	C Commands Line Arguments
+C makes it possible to pass values from the command line at execution time in your program. In this chapter, you will learn about the use of command-line argument in C.
+
+The main() function is the most significant function of C and C++ languages. This main() is typically defined as having a return type of integer and having no parameters; something like this:
+
+
+int main()
+{
+    // body of the main() function
+}
+C provides programmers to put command-line arguments within the program, which will allow users to add values at the very start of program execution.
+
+Table of Contents
+# What are Command line arguments?
+# Program for Command Line Argument
+Command line arguments are the arguments specified after the program name in the operating system's command line, and these arguments values are passed to your program at the time of execution from your operating system. For using this concept in your program, you have to understand the complete declaration of how the main function works with this command-line argument to fetch values that earlier took no arguments with it (main() without any argument).
+
+
+So you can program the main() in such a way that it can essentially accept two arguments where the first argument denotes the number of command line arguments whereas the second argument denotes the full list of every command line argument. This is how you can code your command line argument within the parenthesis of main():
+
+int main ( int argc, char  *argv [ ] )
+In the above statement, the command line arguments have been handled via the main() function, and you have set the arguments where
+
+argc (ARGument Count) denotes the number of arguments to be passed and
+argv [ ] (ARGument Vector) denotes to a pointer array that is pointing to every argument that has been passed to your program.
+You must make sure that in your command line argument, argv[0] stores the name of your program, similarly argv[1] gets the pointer to the 1st command line argument that has been supplied by the user, and *argv[n] denotes the last argument of the list.
+
+#include <stdio.h> 
+
+int main( int argc, char *argv [] )
+{
+    printf(" \n Name of my Program %s \t", argv[0]);
+
+    if( argc == 2 )
+    {
+        printf("\n Value given by user is: %s \t", argv[1]);
+    }
+    else if( argc > 2 )
+    {
+        printf("\n Many values given by users.\n");
+    }
+    else
+    {
+        printf(" \n Single value expected.\n");
+    }
+}
+
+
+
+
+
+
+	C 99 Features
+
+
+
+C programming is developed and standardized by ANSI and ISO and is famous for its powerful, flexible, and elegant language. Because of its suitability for both systems based as well as application-based programming it has become an industry standard, general purpose language today. The standardization committee which is working on C are trying to check each element of the language critically and decided that a change or enhancement is necessary to continue its legacy and popularity. So, new features were included with a new version - C99. It is recognized as one of the advanced topics of C. In this chapter, you will learn about the features that are available in C99 standard but not in its previous version.
+
+Table of Contents
+# What is C99?
+# Important Features of C99
+# History of C99
+# New C99 Keywords
+# _Bool
+# _Complex
+# _Imaginary
+# inline
+# restrict
+# Declaration of variables
+# Variable Array length
+# Comment Technique
+The C99, previously known as the C9X, is an informal name for ISO/IEC 9899:1999 of C programming standard. It is the enhanced and newer version of C90 with added features for the language and the standard library and hence makes use of a better implementation of the available computer hardware such as the IEEE arithmetic and compiler technology.
+
+The C99 standard introduces several new language features. These new features include:
+
+Some features are like extensions to C90 offered by GNU compiler such as macros with a variable number of arguments.
+C99 allows the use of sophisticated numbers and designated initializers.
+Restricted pointers are also added in C99.
+There are some new keywords and identifiers.
+New comment techniques
+Inline functions
+Variable length array
+Flexible array members
+New header files were included
+Addition of Compound Literals
+As the official standard for C language was produced by ANSI (American National Standard Institute) in the year 1989, and then became an international standard in the year 1990, the specification of the C language remains relatively static for some time, with the evolving C++. The standard underwent further revision in the late 1990s, leading to the publication of ISO/IEC 9899:1999 in the year 1999, which was adopted as an ANSI standard in May 2000. So the C language defined by that version of the standard is commonly referred to as "C99".
+
+The C99 standard incorporates new enhancements and included advanced features that are desirable for any modern computer language. Some of the features are borrowed from C++ while others are a modification of few constructs.
+
+ANSI C has defined 32 keywords in C. C99 has added five more keywords to that old group of keywords. Addition of these new keywords is perhaps the most significant feature of C99. The new 5 keywords are:
+
+_Bool: as the name suggests is of type integer which is used to declare Boolean type variables i.e. it can store only zeros (0s) and ones (1s). This is a new data type of C introduced by C99.
+
+
+_Complex: It is used to declare complex floating type variables to store mathematical complex numbers. This is a new data type that is included in C99. They are declared as:
+
+float _Complex variable_name;
+double _Complex variable_name;
+Example: float _Complex z = l + 2*J;
+or it can also be declared as:
+
+float complex z = l + 2*J;
+z = l/z;
+if the header file <complex.h> is included at the beginning of the program.
+
+_Imaginary: It is used to declare imaginary floating type variables store mathematical imaginary numbers. This is also a new data type included by C99. It is declared like that of _Complex -
+
+double _Imaginary variable_name;
+float _Imaginary variable_name;
+inline: The objective of the inline specifier is to supply a hint for the compiler to perform optimizations, such as function inlining, that require the definition of a function to be visible at the call site. The compilers can ignore the presence or absence of the inline specifier for the purpose of optimization.
+
+static int g;
+
+inline void k(void)
+{
+static int s = 1;
+int x = g;
+/*The above line is an error because the non-static inline function is accessing the static variable*/}
+restrict: C99 has introduced the "restrict" keyword as a type qualifier that can be used only for pointers. A pointer when qualified with the keyword 'restricted' is referred to as a restricted pointer. Restricted pointers are declared as follows:
+
+int *restrict pt;
+void *restrict ptr1;
+When a pointer is declared as restricted, it becomes the only means to access the object it points to.
+
+It is legal to declare variables it at any point of the program within the curly braces of main() function.
+
+#include<stdio.h>
+#include <complex.h>
+
+main()
+{
+   int g;
+   g = 600;
+    . . . 
+    . . .  
+   int k;   // Legal in C99
+   k = 200;
+   . . . 
+}
+In ANSI C, array dimension must have to be declared. But C99 permits declaration of array dimensions using integer variables or any valid integer expressions. This is called Variable length array.
+
+This is how the variable length arrays are declared:
+
+#include<stdio.h>
+main()
+{
+   int x, y;
+   scanf("%d %d", &x, &y);
+   float matrix [x][y]; /*Variable Length array*/    . . .
+    . . . 
+}
+C99 allows to put comment using a double front slash (//) which is done in C++, and the C compiler does not show any error which was not possible in ANSI C.
+
+
+
+
+
+
+	C Error Handling
+
+
+Error handling features are not supported by C programming, which is known as exception handling in C++ or in other OOP (Object Oriented Programming) languages. However, there are few methods and variables available in C's header file error.h that is used to locate errors using return values of the function call. In C, the function return NULL or -1 value in case of any error, and there is a global variable errno that sets the error code/number. Hence, the return value can be used to check errors while programming.
+
+By principle, the programmer is expected to prevent the program from errors that occur in the first place, and test return values from functions.
+
+
+C language provides the following functions to represent errors. These are:
+perror(): This function returns a string to pass to it along with the textual representation of the current errno value.
+strerror(): This function is defined in string.h library and this method return a pointer to the string representation of the present errno value.
+Let's see an example to deal with an error situation in C:
+
+//Divided By zero Error i.e. Exception
+#include <stdio.h>
+#include <stdlib.h>
+
+void main() {
+   int ddend = 60;
+   int dsor = 0;
+   int q;
+
+   if( dsor == 0){
+      fprintf(stderr, "Division by zero! Exiting...\n");
+      getch();
+      exit(-1);
+   }
+   q = ddend / dsor;
+   fprintf(stderr, "Value of quotient : %d\n", q);
+   getch();
+   exit(0);
+}
+
+
+
+
+
+
+	Bit Fields in C
+
+
+
+
+In C, you can state the size of your structure (struct) or union members in the form of bits. This concept is to because of efficiently utilizing the memory when you know that your amount of a field or collection of fields is not going to exceed a specific limit or is in-between the desired range.
+
+Let us take a situation of C program, which contains a number having TRUE/FALSE variables clustered together in structure form name as decided:
+
+struct {
+  unsigned int haveTime;
+  unsigned int haveSpace;
+}
+decided
+The above structure involves 8-bytes of memory space, but you need to hold either 0 or 1 for each of the above variables. The C language presents an enhanced way of utilizing the memory space in such condition.
+
+When implementing such variables within a structure, you can implicitly characterize the width of a variable that tells the compiler to exercise only that specific number of bytes. The above structure code snippet can be written associating bit field as:
+
+struct {
+  unsigned int haveTime: 1;
+  unsigned int haveSpace: 1;
+}
+decided;
+The above code snippet (structure program) involves 4 bytes of memory space for the status variable, but only 2 bits will be used for storing the values.
+
+So in your above example, the structure has occupied 4 bytes of memory for a decided variable, but only 2 bits will be implemented for storing the values.
+
+Variables that are defined using a predefined width or size are called bit fields. This bit field can leave more than a single bit. The format and syntax of bit-field declaration inside a structure is something like this:
+
+struct {
+  data - type[nameofmember]: width_of_Bit - field;
+};
+data-type: defines the data type which establishes how a bit-field's value will be represented and interpreted. The data type can be of simple integer, signed integer, or unsigned integer.
+
+nameofmember: defines the name of the bit-field member within the structure
+
+width_of_Bit-field: specifies the number of bits required in the bit-field. It is to be noted that the width of the bit-field should have to be lesser than or at least equal to the width of the specified type.
+
+struct example_bitField {
+  int val1;
+  int val2;
+};
+
+struct example_bitField2 {
+  int val1: 1;
+  int val2: 1;
+};
+
+int main(void) {
+  printf(" \n Size of memory engaged by example_bitField : %zu ", sizeof(struct example_bitField));
+  printf(" \n Size of memory engaged by example_bitField2: %zu ", sizeof(example_bitField2));
+  return 0;
+}
+Size of memory engaged by example_bitField : 8
+Size of memory engaged by example_bitField2 : 4
+
+
+
+
+
+
+
+
+
+
+
+
+************************************************************************************************************************************************************
+############################################################################################################################################################
+*************************************************************************************************************************************************************
+
+
+
+
+
+
+
+------------------------------------------------------------pseudocode in C for exams-----------------------
+
+
+Table of Contents
+	
+Pseudo Code in C
+
+Introduction:
+
+Notations of Pseudo Code in C
+
+ Sequence Construct or Structure:
+
+ Selection (Decision):
+
+If-Then Construct:
+
+If-Then-Else Construct:
+
+Case Construct:
+
+  Repetition(Looping) Construct:
+
+Advantages and Disadvantages of Pseudo Codes
+
+Advantages Of Pseudo Code in C:
+
+Disadvantages of Pseudo Code in C:
+
+
+Pseudo Code in C
+Pseudo code in C is a simple way to write programming code in English. Pseudo-code is informal writing style for program algorithm independent from programming languages to show the basic concept behind the code.
+
+
+ 
+Pseudocode is not an actual programming language. So it cannot be compiled and not be converted into an executable program. It uses short or simple English language syntax to write code for programs before it is converted into a specific programming language.
+
+Introduction:
+It is also useful in a program development process and the programmers will ensure that actual programming is likely to match design specifications. The errors finding at the pseudo-code stage is less costly than catching them later in the development process.
+
+It is possible to write programs that will convert a given pseudo-code language into a given programming language. In simple terms, pseudo-code = Natural Language + Programming Language.
+
+The pseudo code in C consists of words and phrases that make pseudo code looks similar to the program but not a program. Pseudo codes are written with respect to a programming language, but programming language syntax or grammar is not strictly followed.
+
+The pseudo-code is neither an algorithm nor a program. pseudo-code is a semi-formal description of the steps to be carried out by the computer, including Steps that are to be repeated and decisions that are to be made but it constructs/models and maybe even look like programming code.
+
+Pseudocode is made up of two words, ‘pseudo’ and ‘code’. Pseudo means imitation and code refer to instructions, written in a programming language.
+
+Pseudocode is also known as Program Design Language (PDL) or Structured has the following characteristics:
+
+A free syntax of natural language that describes a processing feature.
+
+A subprogram definition and calling techniques.
+
+Fixed syntax of keywords that provide for all structured constructs, data declarations and modularity characteristics.
+
+A data declaration facility. 
+
+Pseudocode is a set of sequential written human language instructions, usually numbered, that is used to describe the actions a program will take when it is coded in a programming language.
+
+Notations of Pseudo Code in C
+
+ 
+pseudo code in c
+
+ 
+The pseudo-code notation specifies operations that a machine can perform in as human-friendly (e.g., easy to read) way as possible while avoiding ambiguity.
+
+Pseudo code allows the designer to focus on the logic of the algorithm without being distracted by details of language syntax.
+
+Pseudocode describes the entire logic of the algorithm so that the implementation becomes a mere mechanical task of translating line by line into source code.
+
+Pseudocode is a generic way of describing an algorithm without using any specific programming language-related notations.
+
+Simply put, pseudo-code is an outline of a program, written in a form that can be easily converted into real programming statements.
+
+The Pseudocode uses plain English statements rather than symbols, to present the processes of a computer system.
+
+The ‘structured’ part of pseudo-code is a notation for representing three general programming constructs or structures namely sequence, selection and repetition (looping). These constructs represent the logic or flow of control in an algorithm.
+
+1. Sequence Construct or Structure:
+As the name implies, in a sequence structure (construct), the instructions to be computed simply follow one another in a logical progression. The sequence construct indicates a processing step in a program.
+
+Sequence construct is a linear progression where one task is performed sequentially after another. Sequential control is indicated by writing one action after another, each action on a line by itself and all actions aligned with the logical indent.
+
+The actions are performed in the same sequence (top to bottom) in which they are written.
+
+For Example:
+
+Start
+Action 1
+…………. 2
+.
+.
+.
+Action N
+Stop
+
+2. Selection (Decision):
+Selection is a process of deciding which choice is made between two or more alternative courses of action. In the selection construct, the execution of a set of statements is done according to a pre-specified condition.
+
+The selection structure is also known as decision-making structure because the decision to execute a particular set of the statement is made on the basis of the conditional statement.
+
+The selection structure is categorized into the following three types:
+
+If-Then Construct:
+This construct uses if and Then clauses to represent a condition as well as a set of statements. In the If clause, the conditional statement is written, while in Then clause the set of statements to be executed are specified.
+
+The execution of the statements specified in the Then clause occurs only if the condition is true.
+
+If-Then-Else Construct:
+This construct is very much similar to the If-Then selection structure. The only difference between the two is that in If-Then-Else selection structure two sets of statements are specified.
+
+One set of statements is represented in the Then clause and another is represented in the Else clause. If the condition is given in If the clause is true, then all the statements specified in the Then clause is executed, otherwise, statements given in the Else clause are executed.
+
+A selection structure allows the program to make a choice between two alternate paths, whether it is true or false. The first statement of a selection structure is a conditional statement.
+
+Pseudocode:
+
+IF (condition is True) THEN
+List of Actions
+ELSE
+List of Different Actions
+ENDIF
+.
+.
+
+It is clear that if the condition is true, Action1 will be performed otherwise Action2 will be performed. After performing the list of actions, the control of the program moves on to the other actions in the process flow.
+
+Case Construct:
+In this selection construct, multiple sets of statements are specified. Each block of statements is associated with a value. The selection of a particular set of statements is made on the basis of the value of the variable given at the beginning of the selection structure.
+
+A case construct indicates a multiway branch based on many conditions. Case construct uses for keywords, Case Of, Others and EndCase, along with conditions that are used to indicate the various alternative.
+
+Pseudocode:
+
+CASE Expression OF
+1 Condition:Sequence 1
+2 Condition:Sequence 2
+.
+.
+.
+N Condition: Sequence N
+OTHERS:
+Default Sequence
+ENDCASE
+
+3. Repetition(Looping) Construct:
+Looping construct in pseudo-code is used when some particular task is to be repeated for a number of times according to the specified condition.
+
+When a sequence of statements is repeated against a condition, it is said to be in the loop. Using looping, the programmer avoids writing the same set of instructions again. The looping process can either be one time or multiple times until the desired output is obtained within a single program.
+
+In the repetition construct, only one set of multiple statements is specified. The same set of the statement is executed several times on the basis of the condition specified along with the structure.
+
+The various type of repetition structure is explained below:
+
+In the Do-While looping construct, a set of statements is given in the Do block and a condition is given in the Do block are executed till the given condition is true. At each instance of execution of block statements, the condition is checked.
+
+If the condition is true, then only the block statements are executed, otherwise, the repetition structure is terminated.
+
+Pseudocode:
+
+DO WHILE Condition is True
+1st Statement
+2nd Statement
+.
+.
+Nth Statement
+ENDDO
+
+The Repeat-Until looping construct is similar to the Do-While repetition structure. In this structure, the repetitive execution of statements given in the Repeat clause occurs only when the condition given in the Until clause is false.
+
+Pseudocode:
+
+REPEAT
+1st Sequence
+2nd Sequence
+.
+.
+Nth Sequence
+UNTIL Condition is False
+
+Advantages and Disadvantages of Pseudo Codes
+Advantages Of Pseudo Code in C:
+Pseudo code is easier and simpler to understood by the programmers of all types.
+
+It cannot be compiled into an executable program.
+
+Compared to a flowchart, it is easier to modify the pseudo-code of program logic whenever program modifications are necessary.
+
+Converting a pseudo code to a programming language is very easy as compared with converting flowchart to a programming language.
+
+To develop a pseudo-code it requires less time and effort than other programming tools such as flowchart.
+
+pseudo-code is easier to write than writing a program in a programming language because pseudo-code as a method has only a few rules to follow.
+
+Disadvantages of Pseudo Code in C:
+Pseudocode is textual representation of an algorithm. It does not provide a graphical or visual representation.
+
+Therefore, sometimes, it becomes difficult to understand the complex written in Pseudocode.
+
+There are no standard rules to follow in using the Pseudo code in C.
+
+Different programmers use their own style of writing pseudo code and hence communication problems occur due to lack of standardization.
+
+For a beginner, it is more difficult to follow the logic or write pseudo code as compared to the flowchart.
+
+
+
+
+
+
+
+Q1. What will be the output of the following pseudocode?
+
+
+
+Integer i
+Set i = 3do
+print i + 3
+i = i - 1while(i not equals 0)
+end while
+
+
+[Note: A do-while loop is a control flow statement that executes a block of code at least once, and then repeatedly executes the given Boolean condition at the end of the block]
+
+
+
+A) 6 6 6
+
+B) 6 5 6
+
+C) 5 5 5
+
+D) 6 5 4
+
+ 
+
+Ans: D 
+
+Explanation:
+
+In this program, one variable declared as i, and the value initialized as 3. We are moving with do-while(Do while will execute the statement once and then it will check the condition).
+
+ 
+
+Step 1:
+
+It will print i+3, here i value is 3. So i+3 is 6. On the next line, i will be decremented by 1. Then checking the conditions in do-while() i!=0. Here updated i value is 2 (2!=0),so condition is true. The loop continues.
+
+ 
+
+Step 2:
+
+It will print i+3, here the updated i value is 2. So i+3 is 5. On the next line, i will be decremented by 1. Then checking the conditions in do-while() i!=0. Here updated i value is 1 (1!=0),so condition gets true. The loop continues
+
+ 
+
+Step 3:
+
+It will print i+3, here the updated i value is 1. So i+3 is 4. On the next line, i will be decremented by 1. Then check the condition in do-while() i!=0. Here updated i value is 0 (0!=0),so condition gets false. Thus the loop gets terminated!
+
+
+
+E.g. code to explain this:
+
+Do while will execute the statement for the first time and then it will check the condition.
+
+ int i=3;
+      do{
+          cout<<i+3; => 3+3 =6 =>2+3 =>5 =>1+3=4
+          i=i-1;      => 3-1=2  =>2-1 =>1 =>1-1=0  
+      }while(i!=0);
+
+
+
+Q2. What would be the output of the following pseudocode?
+
+ Integer a
+String str1
+Set str1 = “goose”
+a = stringLength(str1)
+Print (a ^ 1)
+ 
+
+[Note- string-length(): string-length() function counts the number of characters in a given string and return the integer value.
+
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bit of its equal operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0]
+
+ 
+
+A) 0
+
+B) 4
+
+C) 5
+
+D) 3
+
+ 
+
+Ans: B 
+
+Explanation:
+
+There are two variables a and str1. Value initialized for str1 is “goose”. On the next line, we are finding the length of str1 that is 5. Finally, printing the output of a bitwise exclusive OR operator with 1. And the answer is 4.
+
+
+
+ E.g. code to explain this:
+
+{
+      int a;
+      string str1="goose";
+      a = str1.length(); => length of String is 5
+      cout<<(a^1);      5 xor 1 => 4 
+}
+
+
+Q3. What would be the output of the following pseudocode?
+
+Integer a, b, c
+Set a = 8, b = 51, c = 2
+c = (a ^ c)^ (a)
+b = b mod 4
+Print a + b + c
+
+
+[Note- mod finds the remainder after the division of one number by another. For example, the expression “5 mod 2” would evaluate to 1 because 5 divided by 2 leaves a quotient of 2 and a remainder of 1
+
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bit of its equal operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0]
+
+
+
+A. 13
+
+B. 17
+
+C. 26
+
+D. 16
+
+ 
+
+Ans: A 
+
+Explanation:
+
+There are three variables a, b and c declared. Value initialized for a is 8, b is 51 and c is 2.
+
+When we do a bitwise exclusive OR of (8^2), the answer is 10. Again 10 bitwise exclusive OR of a i.e (10 ^ 8) is 2, which will be stored in variable c.
+
+Then taking modulo operation for b by 4 (b%4) the answer is 3
+
+Finally adding all the updated values of a,b, and c (8+2+3 ) and the output of Pseudocode is 13.
+
+
+
+E.g. code to explain this: 
+
+int main()
+   {
+      int a=8,b=51,c=2;
+      c = (a ^ c)^ (a); =>(8^2) ^(8) => 10 ^ 8 => 2
+      b = b % 4;    =>3
+      cout<<a + b + c; =>8+2+3 => 13
+   }
+
+
+Note: ^ is the bitwise exclusive OR
+
+ 
+
+Q4. Consider an array A = {1, 2, 4, 5, 6, 11, 12} and a key which is equal to 10. How many comparisons would be done to find the key element in the array using the binary search?
+
+
+
+A)  5
+
+B)  1
+
+C)  2
+
+D)  3
+
+ 
+
+Ans: D
+
+Explanation:
+
+There is an Integer Array A = {1, 2, 4, 5, 6, 11, 12} and the key value is 10.
+
+ 
+
+Binary search applies only to the sorted ordered list.
+
+ 
+
+We know that binary search takes log n base 2 times to search for a particular element.
+
+If there are N elements in the set you have chosen binary search then take log n base 2 times.
+
+First, you check how many elements in your array. if an element in your array is greater than 1 then you go for the next step.
+Binary search divides the problem into two parts using the mean of the total number of an element which is sorted mean=(0+n)/2
+And compare the searching element which is either greater than the mean or lesser or equal to the mean .then after comparison skips the one part either greater part or small part depends on the result of searching is done if the mean is equal to the searching element. So that problem is divide into n/2 and goes until searching is done.
+If you apply the recursive equation for the binary search algorithm then
+
+T(n)=T(n/2)+1 to solve the problem
+
+n/2^k=1
+
+taking log on both sides
+
+log n=log (2^k)
+
+log n= k log 2
+
+k=log n base 2.
+
+N=7
+
+K=log 7 base 2 = 3
+
+K=3
+
+ 
+
+So, the answer becomes 3.
+
+ 
+
+Q5. What would be the output of the following pseudocode?
+
+ Integer i, j, k
+Set k = 8for(each i from 1 to 1)
+        for(each j from the value of i to 1)
+            print k+1
+        end for
+end for
+
+
+A.  2
+
+B.  9
+
+C.  7
+
+D.  8
+
+ 
+
+Ans: B
+
+Explanation:
+
+There are three variables i, j, and k declared. Value initialized for k is 8, In this code, we are moving with nested for loop.
+
+Here I value is 1, for loop will check the condition i<=1 condition gets true. Now, moving with inner for loop j value will be 1 condition gets true j<=1.so, it prints K+1. Then j value will be incremented by 1(2<+1) inner for loop condition gets false.
+
+On the next iteration, i value will be incremented by 1, here the updated i value is 2 (2<=1) condition get false. So the answer is 9.
+
+ 
+
+E.g. code to explain this:
+
+int i, j, k;
+    k = 8;
+   for(i=1 ;i<=1;i++){ => i=1 True
+       for(j=i;j<=1;j++){ => j=1 true
+           cout<< k+1;  => print k+1 => 8+1 =>9
+   }
+}
+ 
+
+Q6.What will be the output of the following pseudocode?
+
+
+
+Integer a, b
+Set a = 15, b = 7
+a = a mod (a - 3)
+b = b mod (b – 3)
+a = a mod 1
+b = b mod 1
+Print a + b
+ 
+
+A) 15
+
+B) 7
+
+C) 2
+
+D) 0
+
+ 
+
+[Note-mod finds the remainder after the division of one number by another. For example, the expression “5 mod 2” leaves a quotient of 2 and a remainder of 1]
+
+ 
+
+Answer: 0
+
+Explanation:
+
+There are two variables a and b declared. Value initialized for a is 15 and b is 7. Taking mod operation for a by 12(a%12) and the answer is 3 will stored in a.
+
+The next mod operation for b is 7 mod (7%4). The answer is 3 will be stored in b.
+
+The next line takes the updated value of a and mods it by 1(3%1). Then the answer becomes 0 will be stored in a.
+
+The next line takes the updated value of b mod by 1 (3%1) then the answer is 0. Finally adding all the updated values of a and b (0+0 ) and the output of Pseudocode is 0.
+
+ 
+
+
+
+
+
+Q7. What will be the output of the following pseudocode?
+
+ 
+
+Integer a, b, c
+Set b = 5, a = 2, c = 2if(b>a && a>c && c>b)
+b = a + 1
+Else
+a = b + 1
+End if
+Print a + b + c
+ 
+
+[Note-&&: Logical AND - The logical AND operator (&&) returns the Boolean value true(or 1) if both operands--. If (x) gets executed if the value if(), i.e., x is not zero]
+
+ 
+
+A) 2
+
+B) 13
+
+C) 26
+
+D) 5
+
+ 
+
+Ans: B
+
+Explanation:
+
+There are three variables a, b and c declared. Value initialized for a is 2, b is 5 and c is 2.
+
+Checking the condition using if, b >a and a>c and c>b here if conditions get false. Now else part will execute b value will be incremented by 1 and stored in a, Finally adding all the updated values of a, b and c (6+5+2 ) and the output of Pseudocode is 13.
+
+ 
+
+ Q8. For which of the following applications can you use hashing?
+
+1. To construct a message authentication code.
+
+2. For Timestamping
+
+3. For detecting a cycle in a graph
+
+Choose the correct answer from the options given below.
+
+ 
+
+A)  Only 1 and 3
+
+B)  Only 2 and 3
+
+C)  Only 1
+
+D)  Only 1 and 2
+
+ 
+
+Ans: D 
+
+Explanation:
+
+Constructing a message authentication code and Timestamping are the real-time applications for hashing.
+
+ 
+
+Q9. Consider an array of float. Calculate the difference between the address of the 1st and 4th element, assuming float occupies 4 bytes of memory.
+
+
+
+A)  16
+
+B)  4
+
+C)  12
+
+D)  8
+
+ 
+
+Ans: C 
+
+Explanation:
+
+Let's consider the address of elements:
+
+1st element – 1000 - 1003 (4 bytes)
+
+2nd element – 1004 - 1007 (4 bytes)
+
+3rd element – 1008 – 1011 (4 bytes)
+
+4th element - 1012 – 1015 (4 bytes)
+
+The difference between the address of the 1st and 4th elements is 12. 
+
+ 
+
+Q10. What is the second part of a node in a linked list that contains the address of the next node called?
+
+A.  data
+
+B.  pointer
+
+C.  element
+
+D.  Link
+
+ 
+
+Ans: D 
+
+Explanation:
+
+The field of each node that contains the address of the next node is usually called the 'link'.
+
+ 
+
+Q11. If you are using a Depth-first search (DFS) for traversing an unweighted graph, then which of the following will happen?
+
+1. It produces the minimum spanning tree
+
+2. It produces all pair shortest path tree
+
+
+
+Choose the correct answer from the options given below.
+
+A)  Both 1 and 2 are true
+
+B)  Both 1 and 2 are false
+
+C)  Only 2 is true
+
+D)  Only 1 is true
+
+ 
+
+Ans: D
+
+Explanation:
+
+Depth-first search (DFS) for traversing an unweighted graph, will produce the minimum spanning tree.
+
+Only Depth-first search (DFS) for traversing a weighted graph, will produce all pair shortest-path tree.
+
+
+
+
+
+
+
+Q12. With the given information provided find out the address of Arr[17] in a 1-D array Arr[30].
+
+- lower bound = 1
+
+- starting base address = 1100
+
+- size of each element is 2.
+
+ 
+
+A)  1132
+
+B)  1070
+
+C)  1128
+
+D)  1068
+
+ 
+
+Ans: A 
+
+Explanation:
+
+We need to find the address of Arr[17]. Starting base address is 1100.
+
+Arr[1] – 1100 (2bytes)
+
+Arr[2] – 1102 (2bytes)
+
+Arr[3] – 1104 (2bytes)
+
+Arr[4] – 1106 (2bytes)
+
+Arr[5] – 1108 (2bytes)
+
+Arr[6] – 1110 (2bytes)
+
+Arr[7] – 1112 (2bytes)
+
+Arr[8] – 1114 (2bytes)
+
+Arr[9] – 1116 (2bytes)
+
+Arr[10] – 1118 (2bytes)
+
+Arr[11] – 1120 (2bytes)
+
+Arr[12] – 1122 (2bytes)
+
+Arr[13] – 1124 (2bytes)
+
+Arr[14] – 1126 (2bytes)
+
+Arr[15] – 1128 (2bytes)
+
+Arr[16] – 1130 (2bytes)
+
+Arr[17] – 1132 (2bytes)
+
+ 
+
+Thus, the Answer for arr[17] is 1132
+
+ 
+
+Q13. What will be the output of the following pseudocode?
+
+Integer arr[]={10, 20, 30, 40, 5}
+Integer a, s
+Set s = 0Set a = arr[1] + arr[2]
+Print a
+
+
+A) 25
+
+B) 5
+
+C) 50
+
+D) 40
+
+ 
+
+Ans: C 
+
+Explanation:
+
+There is an array of integer arr[]={10,20,30,40,50}. There are two variables a and b declared. . The value initialized for s is 0. On the next line adding the 1st index value 20 and 2nd index value 30 arr[1] + arr[2]( 20+30), the answer is 50 will be stored in a. Finally printing the updated values of a is 50.
+
+ 
+
+Q14. What will be the output of the following pseudocode?
+
+Integer a, b, c
+Set b = 2, a = 2
+c = a ^ b
+Print c
+ 
+
+[Note- ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bit of its-- other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0]
+
+ 
+
+A) 6
+
+B) 4
+
+C) 0
+
+D) 2
+
+ 
+
+Ans: C 
+
+Explanation:
+
+There are three variables a, b and c declared. Value initialized for a is 2 and b is 2. When we do a bitwise exclusive OR of c i.e (2^2), the answer is 0. Finally, print the value of c.
+
+ 
+
+Q15. Which of the following series will be printed by the given pseudocode?
+
+Integer i, j, k, n
+Set j=1, k=1for(each i from 1 to 5)
+  print k
+  j=j+1
+  k=k+j
+end for
+ 
+
+A) 1 3 6 10 15
+
+B) 1 2 3 4 5
+
+C) 2 4 6 8 10
+
+D) 1 1 2 3 5
+
+ 
+
+Ans: A 
+
+Explanation:
+
+There are four variables i, j,k, and n declared. Value initialized for j is 1 and k is 1.
+
+For loop, i value starts from 1 loop will run till the i<5, In the first iteration i value, is 1, printing k value is 1. Next line j value will be incremented by 1 (1+1) =>2. On the next line adding k and j (1+2), then the answer is 3.
+
+2nd iteration i value will be incremented by 1, i=2. Print k, the updated k value is 3. on the next line j value will be incremented by 1 (2+1) =>3. On the next line adding k and j (3+3) , then the answer is 6.
+
+3rd iteration i value will be incremented by 1, i=3. Print k, the updated k value is 6. on the next line j value will be incremented by 1 (3+1) =>4. On the next line adding k and j (6+4) , then the answer is 10.
+
+4th iteration i value will be incremented by 1, i=4. Print k, the updated k value is 10. on the next line j value will be incremented by 1 (4+1) =>5. On the next line adding k and j (10+5) , then the answer is 15.
+
+5th iteration i value will be incremented by 1, i=5. Print k, the updated k value is 15. Next line j value will be incremented by 1 (5+1) =>6. On the next line adding k and j (15+6), then the answer is 21.
+
+Here for loop condition gets false, it comes out of the for loop. The output of Pseudocode is 1 3 6 10 15.
+
+ 
+
+Capgemini Pseudocode Questions and Answers (Previously Asked)
+ 
+
+Question 1:
+
+Find the output of the following pseudo-code:
+
+Integer x,y,z;
+x=0
+y=1
+x = y = z = 8
+Print x
+ 
+
+Options:
+
+A) 0
+
+B) 8
+
+C) 1
+
+D) None of the above
+
+ 
+
+Correct Answer: Option B
+
+Explanation:   In this question, the value of x is initialized as 0 and y as 1 in the beginning. Later the value 8 is assigned to the variable z and the value of z is assigned to the variable y and the value of y is assigned to the variable x. Finally, the value of x is updated as 8.
+
+ 
+
+Question 2:
+
+Find the output of the following pseudo-code:
+
+ Integer value, n
+ Set value = 1, n = 45while(value less than equal to n)
+ value = value << 1
+ end loop
+ Print value
+ 
+
+Options:
+
+A) 64
+
+B) 32
+
+C) 45
+
+D) None of the above
+
+ 
+
+Correct Answer: Option A
+
+Explanation:  Here, the left shift operation pushes the values towards the left once; when 1 is left-shifted the value that we will be obtaining will always be 2 to the power something. When one is converted in the beginning and not shifted the value will be 2^0 which is 1. The next iteration will be pushed one place towards the left, therefore the value now will be 2^1 which is 2; this will go on happening until the value stored is greater than 45. The value which is greater than 45 in 2 powers is 64. Now the loop terminates and the last value stored in the variable is 64 and the same will be printed.
+
+ 
+
+Question 3:
+
+Find the output of the following pseudo-code:
+
+ Integer c, d
+ Set c = 15, d = 12
+ d = c – 1
+ Print c //line
+ c = d + (c – 2)
+ if(c < 40)
+   Goto line
+ end if
+ 
+
+Options:
+
+A) 14 26 38
+
+B) 27 39
+
+C) 15 27 39
+
+D) None of the above
+
+ 
+
+Correct Answer: Option C
+
+Explanation:  c and a is initialized, and d as well; line 5 we are re-initializing c in every iteration of goto; the goto loop terminates only when the value of c is greater than 40 the last value stored in c which breaks the if the condition is 51 and all the numbers 15 27 and 39 will be printed according to the algebraic expression in line number 5.
+
+ 
+
+Question 4:
+
+Find the output of the following pseudo-code if x= 4 and y=5:
+
+ Integer fun(int x, int y)
+   if(x > 1)
+     fun(x – 2, y + 2)
+   end if
+   print y
+ End function fun()
+ 
+
+Options:
+
+A) 4 5 6
+
+B) 7 6 5
+
+C) 9 7 5
+
+D) None of the above
+
+ 
+
+Correct Answer: Option C
+
+Explanation:  the first reverse recursion would print 9 and returns to a previous function call, next it prints 7 and returns to the very first function call finally it prints a 5 and completes the execution.
+
+
+
+Question 5:
+
+How many times will the print statement be executed:
+
+ Integer a, b, c
+ Set a = 8, b = 10, c = 6
+ If(a > c AND (b + c) > a)
+   Print a
+ end ifif(c > b OR (a + c) > b)
+   Print b
+ end ifif((b+c) MOD a EQUALS 0)
+   Print c
+ end if
+ 
+
+Options:
+
+A) 2
+
+B) 3
+
+C) 1
+
+D) 0
+
+ 
+
+Correct Answer: Option B
+
+Explanation:  All the conditions are true when checked with the condition so the print statement will be executed 3 times.
+
+ 
+
+Question 6:
+
+What will be the output if the following pseudocode if a=10 and b=6:
+
+   Integer func (Integer a, Integer b)
+   Integer temp
+   while(b)
+     temp = a MOD b
+     a = b
+     b = temp
+   end whilereturn a
+ End function func()
+ 
+
+Options:
+
+A) 2
+
+B) 4
+
+C) 3
+
+D) 1
+
+ 
+
+Correct Answer: Option A
+
+Explanation:  The while loop will only terminate when the value of b becomes zero, this will happen only after the 4th iteration when the last value of the b will be zero and the value of a is 2
+
+ 
+
+Question 7:
+
+What will be the output of the following pseudo-code?
+
+Integer x, y, z
+Set x=24, y=8
+x = x/y
+ z = y<<x
+Print z
+[Note: << is left shift operator, it takes two numbers, left shifts the bits of the first operand, the second operand decodes the number of …]
+
+ 
+
+Options:
+
+A) 1
+
+B) 8
+
+C) 0
+
+D) 64
+
+ 
+
+Correct Answer: Option D
+
+Explanation:  When the x is reinitialized in line 3 the value stored will be 3. Therefore 8 has to be left-shifted thrice. The shifted value is the 3rd next power of 2 that is 2^6 and the value is 64.
+
+
+
+
+
+
+
+Question 8:
+
+What will be the output of the following pseudocode?
+
+Integer x, y, z, a
+Set x = 2, y = 1, z = 5
+a = (x AND y) OR (z + 1)
+Print a
+ 
+
+Options:
+
+A) 5
+
+B) 3
+
+C) 2
+
+D) 1
+
+ 
+
+Correct Answer: Option D
+
+Explanation:  AND gate works when both the conditions are true so the first (x and y) condition will be taken as true as both the inputs are true. OR gate works when any of the conditions are true, where it has already got one of its input as true so without checking the other input it will directly assign the value as 1.
+
+ 
+
+Question 09:
+
+What will be the output of the following pseudocode?
+
+Integer a=5, b=4, c=3
+a = b + c
+c = a – b
+c = c + a
+c = b + c
+b = b + c
+Print a, b, c
+ 
+
+Options:
+
+A) 7 14 7
+
+B) 7 14 10
+
+C) 7 8 14
+
+D) 7 18 14
+
+ 
+
+Correct answer: Option D
+
+Explanation:  The intial values of a=5, b=4, c=3
+
+           a = 4 +3 = 7
+
+           c = 7 – 4 = 3
+
+           c = 3 + 7 = 10
+
+           c = 4 + 10 = 14
+
+           b = 4 + 14 = 18
+
+           Print 7, 18, 14
+
+ 
+
+Question 10:
+
+What will be the output of the following pseudocode?
+
+
+
+  Integer a, b, c, d
+             Set b = 18, c = 12
+             a = b – c
+             for (each c from 1 to a – 1)
+                         b = b + c + 12
+                         b = b/5
+                         d = b + a
+             end for
+             c = a + b + c
+             Print a b c
+ 
+
+Options:
+
+A) 5 3 9
+
+B) 6 14 17
+
+C) 6 4 14
+
+D) 6 4 16
+
+ 
+
+Correct Answer: Option D
+
+Explanation:  The loop runs for 5 times; after the 5th iteration the value of a=6; b=4; c=10.
+
+So the final answers are 6, 4, 16 
+
+ 
+
+Question 11:
+
+Which of the following operations is possible on an array?
+
+
+
+Options:
+
+A) All of the mentioned options
+
+B) Insertion
+
+C) Searching
+
+D) Sorting
+
+ 
+
+Correct Answer: Option A
+
+
+
+Explanation:  It is trickier when it comes to arrays to do the operation in comparison with the linked lists. But they are definitely possible
+
+
+
+Question 12:
+
+An abstract data type is defined to be a mathematical model of a user-defined type along with the collection of all ________ operations on that model.
+
+ 
+
+Options:
+
+A) Union
+
+B) Assignment
+
+C) Primitive
+
+D) None of the above
+
+ 
+
+Correct Answer: Option A
+
+Explanation:  In computer science, an abstract data type (ADT) is a mathematical model for data types. An abstract data type is defined by its behaviour (semantics) from the point of view of a user, of the data, specifically in terms of possible values, possible operations on data of this type, and the behaviour of these operations. These are not possible in union and assignment operations. 
+
+ 
+
+Question 13:
+
+What do we call the binary tree nodes with no successor?
+
+
+
+Options:
+
+A) End nodes
+
+B) Terminal nodes
+
+C) Last nodes
+
+D) Final nodes
+
+ 
+
+Correct Answer: Option B
+
+Explanation:  The official terminology is Terminal node or leaf node;
+
+ 
+
+Question 14:
+
+What do we call the highest element of an array’s index?
+
+A)   Upper bound
+
+B)   Lower bound
+
+C)   Range
+
+D)   Extraction
+
+ 
+
+Correct Answer: Option A
+
+Explanation: The upper bound is always the highest element of an array index.
+
+ 
+
+Question 15:
+
+Which of the following data types represents many to many relations?
+
+A)   Both plex and graph
+
+B)   Graph
+
+C)   Plex
+
+D)   Tree
+
+ 
+
+Correct Answer: Option A
+
+Explanation: A many-to-many relationship occurs when multiple records in a table are associated with multiple records in another table. This is possible only with the help of Both plex and graph.
+
+ 
+
+Question 16:
+
+ 
+
+Which of the following is NOT a type of linked list?
+
+A)   Double ended linked list
+
+B)   Double linked list
+
+C)   Simple linked list
+
+D)   Circular linked list
+
+ 
+
+Correct Answer: Option A
+
+Explanation: We just have 3 types of linked list among the given options b, c, and d. A double-ended linked list does not exist.
+
+ 
+
+Question 17:
+
+Each node of the graph is represented as a _______?
+
+A)  Vertex
+
+B)  Root
+
+C)  Path
+
+D)  Edge
+
+ 
+
+Correct Answer: Option A
+
+Explanation: Every node cannot be a root node and path, the edge is related to the directions of the graph.
+
+ 
+
+Question 18:
+
+Recursion uses more memory space than iteration. Which of the following is/are the valid reason for the same?
+
+A.   It uses the stack instead of a queue
+
+B.   Every recursion call has to be stored
+
+Choose the correct answer from the options given below.
+
+A)   Only A
+
+B)   Both A and B
+
+C)   Neither A nor B
+
+D)   Only B
+
+ 
+
+Correct Answer: Option A
+
+Explanation: Recursive functions use the stack as the memory space technique. And also as rightly pointed out the call has to be present to store the returned values.
+
+ 
+
+Question 19:
+
+To which of the following domain problem does the knapsack problem belong?
+
+A)   NP-complete
+
+B)   Sorting
+
+C)   Optimisation
+
+D)   Linear Solution
+
+ 
+
+Correct Answer: Option C
+
+
+
+Explanation: knapsack algorithm is used to find the maximum profit out of the least weight combination possible, therefore it definitely belongs to an optimization domain.
+
+
+
+
+
+------------------------------------------------------------End-----------------------------------
+
+
+
+
+
+
+
+
+*********************************************************************************************************************************************************
+############################################################################################################################################################
+*************************************************************************************************************************************************************
+
+
+
+
+
+-------------------------------------------------------------------programming codes for exams---------------------------
+
+Wipro Elite NTH Coding Questions #1
+
+
+Josh went to the market to buy N apples. He found two shops, shop A and B, where apples were being sold in lots. He can buy any number of the complete lot(s) but not loose apples. He is confused with the price and wants you to figure out the minimum cost to buy exactly N apples. Write an algorithm for Josh to calculate the minimum cost to buy exactly N apples.
+
+
+
+Input Format:
+
+The first line of the input consists of an integer – N, representing the total number of apples that Josh wants to buy.
+
+The second line consists of two space-separated positive integers – M1 and P1, representing the number of apples in a lot and the lot’s price at shop A, respectively.
+
+The third line consists of two space-separated positive integers-M2 and P2, representing the number of apples in a lot’s price at shop B, respectively.
+
+
+
+Output Format:
+
+Print a positive integer representing the minimum price at which Josh can buy the apples.
+
+
+
+Sample Input:
+
+19
+
+3 10
+
+4 15
+
+
+
+Sample Output:
+
+65
+
+
+
+Solution:
+
+
+
+Input:
+
+32
+
+4
+
+1
+
+3
+
+10
+
+
+
+CC++Java 8Python 3
+1
+#include <stdio.h>
+2
+​
+3
+int main() {
+4
+    int n, m1, p1, m2, p2;
+5
+    scanf("%d", &n);
+6
+    scanf("%d", &m1);
+7
+    scanf("%d", &p1);
+8
+    scanf("%d", &m2);
+9
+    scanf("%d", &p2);
+10
+​
+11
+    int min_cost = -1;
+12
+    for (int i=0; m1*i <= n; i++) {
+13
+        int count2 = n - i*m1;
+14
+        if (count2%m2 == 0) {
+15
+            int cost = p1 * i + p2 * (count2/m2);
+16
+            min_cost = (cost < min_cost || min_cost == -1) ? cost : min_cost;
+17
+        }
+18
+    }
+19
+    if (min_cost != -1)
+20
+        printf("%d\n", min_cost);
+21
+    else
+22
+        printf("Invalid inputs\n");
+23
+}
+OUTPUT
+8
+
+
+
+
+
+Wipro Elite NTH Coding Questions #2
+
+
+Write a program to implement a bubble sort algorithm for sorting the elements of an array.
+
+
+
+Input Format:
+
+The first line corresponds to the size of an array.
+
+The second line corresponds to the elements.
+
+
+
+Output Format:
+
+Print the element in ascending order.
+
+
+
+Sample Input:
+
+6
+
+11 15 26 38 9 10 
+
+
+
+Sample Output:
+
+9 10 11 15 26 38
+
+
+
+Solution:
+
+
+
+Input -
+
+6
+
+45 8 15 91 74 5
+
+
+
+CC++Java 8Python 3
+1
+#include <stdio.h>
+2
+​
+3
+void bubbleSort(int arr[], int n)
+4
+{
+5
+    int i, j, temp;
+6
+    for(i = 0; i < n; i++)
+7
+    {
+8
+        for(j = 0; j < n-i-1; j++)
+9
+        {
+10
+            if( arr[j] > arr[j+1])
+11
+            {
+12
+                temp = arr[j];
+13
+                arr[j] = arr[j+1];
+14
+                arr[j+1] = temp;
+15
+            } 
+16
+        }
+17
+    }
+18
+}
+19
+int main()
+20
+{
+21
+    int arr[100], i, n, step, temp;
+22
+    scanf("%d", &n);
+23
+    for(i = 0; i < n; i++)
+24
+    {
+OUTPUT
+5 8 15 45 74 91
+
+Wipro Elite NTH Coding Questions #3
+
+
+You are playing an online game. In the game, a list of N numbers is given. The player has to arrange the numbers so that all the odd numbers of the list come after the even numbers. Write an algorithm to arrange the given list such that all the odd numbers of the list come after the even numbers.
+
+
+
+Input
+
+The first line of the input consists of an integer num, representing the size of the list(N). The second line of the input consists of N space-separated integers representing the values of the list
+
+
+
+Output
+
+Print N space-separated integers such that all the odd numbers of the list come after the even numbers
+
+
+
+Example
+
+Sample Input
+
+8
+
+10 98 3 33 12 22 21 11
+
+
+
+Sample Output
+
+10 98 12 22 3 33 21 11
+
+
+
+Explanation
+
+ All the even numbers are placed before all the odd numbers.
+
+
+
+Solution
+
+Input
+
+8
+
+15 16 14 17 18 19 20 11
+
+
+
+CC++Java 8Python 3
+1
+#include<stdio.h>
+2
+void swap(int *i, int *j)
+3
+{
+4
+    int temp = *i;
+5
+    *i = *j;
+6
+    *j = temp;
+7
+}
+8
+int seperateEvenAndOdd(int arr[], int size)
+9
+{
+10
+    int left = 0;
+11
+    int right = size - 1;
+12
+    while(left < right)
+13
+    {
+14
+        while(arr[left]%2 == 0 && left < right)
+15
+        {
+16
+            left++;
+17
+        }
+18
+     
+19
+while(arr[right]%2 == 1 && left < right)    
+20
+        {
+21
+            right--;
+22
+        } 
+23
+if(left < right)
+24
+        {
+OUTPUT
+20 16 14 18 17 19 15 11
+
+Wipro Elite NTH Coding Questions #4
+
+
+A digital machine generates binary data which consists of a string of 0s and 1s. A maximum signal M, in the data, consists of the maximum number of either 1s or 0s appearing consecutively in the data but M can’t be at the beginning or end of the string. Design a way to find the length of the maximum signal.
+
+
+
+Input
+
+The first line of the input consists of an integer N, representing the length of the binary string. The second line consists of a string of length N consisting of 0s and 1s only.
+
+
+
+Output
+
+Print an integer representing the length of the maximum signal.
+
+
+
+Example
+
+Example 1:
+
+
+
+Input
+
+6
+
+101000
+
+
+
+Output
+
+ 1
+
+
+
+Explanation
+
+ For 101000, M can be 0 at the second index or at the third index so in both cases max length = 1.  
+
+
+
+Example2:
+
+
+
+Input
+
+ 9
+
+ 101111110
+
+
+
+Output
+
+ 6
+
+
+
+Explanation
+
+ For 101111110, M = 111111 so maxlength = 6.
+
+
+
+Solution
+
+
+
+Input
+
+5
+
+10110
+
+
+
+CC++Java 8Python 3
+1
+#include <stdio.h>
+2
+​
+3
+​
+4
+int main()
+5
+{
+6
+    int size;
+7
+    scanf("%d",&size);
+8
+    char arr[size+1];
+9
+    int max=0,count=0;
+10
+    int flag=0;
+11
+    for(int i=0;i<size;i++)
+12
+    {
+13
+        scanf("%s",&arr[i]);
+14
+    }
+15
+    for(int i=0;i<size;i++)
+16
+    {
+17
+        if(arr[i]=='1')
+18
+        {
+19
+            count++;
+20
+            flag=1;
+21
+        }
+22
+​
+23
+        else if(arr[i]=='0' && flag==1)
+24
+        {
+OUTPUT
+2
+
+
+Wipro Elite NTH Coding Questions #5
+
+
+Dinesh is fond of video games. Due to the pandemic, he designs a video game called Corona world. In this game, the player enters the game with a certain energy. The player should defeat all the corona infected zombies to reach the next level. When time increases the zombies will increase double the previous minute. Anyhow the player can manage to fight against all the zombies. In this case, definitely the player can not achieve the promotion. Hence the player gets a superpower to destroy all the zombies in the current level when the current game time is a palindrome. Anyhow the player can manage only if he knows the time taken to get the superpower. Help the player by providing the minimum minutes needed to get the superpower by which he can destroy all the zombies. You will be provided with the starting time of the game.
+
+
+
+Input Format:
+
+First-line contains a string representing the starting time.
+
+
+
+Output:
+
+A string representing the minimum minutes needed to get the superpower.
+
+
+
+Constraints:
+
+Input time will be in 24 hours format
+
+
+
+Sample Input:
+
+05:39
+
+
+
+Sample Output:
+
+11
+
+
+
+Explanation:
+
+It takes 11 minutes for minute value to become 50, 05:50 is a palindromic time.
+
+
+
+Solution
+
+Input
+
+04:45
+
+
+
+CC++Java 8Python 3
+1
+#include<stdio.h>
+2
+int get_palindrome_time(char str[]) 
+3
+{ 
+4
+    int hh, mm; 
+5
+    hh = (str[0] - 48) * 10 + (str[1] - 48); 
+6
+    mm = (str[3] - 48) * 10 + (str[4] - 48); 
+7
+    int requiredTime = 0; 
+8
+    while (hh % 10 != mm / 10 || hh / 10 != mm % 10) 
+9
+    { 
+10
+      ++mm; 
+11
+      if (mm == 60) 
+12
+      { 
+13
+         mm = 0; 
+14
+         ++hh; 
+15
+       }  
+16
+        if (hh == 24) 
+17
+            hh = 0; 
+18
+      ++requiredTime; 
+19
+    } 
+20
+    return requiredTime; 
+21
+} 
+22
+int main() 
+23
+{ 
+24
+    char str[6];
+OUTPUT
+65
+
+
+Wipro Elite NTH Coding Questions #6
+
+
+Given an integer matrix of size N x N. Traverse it in a spiral form.
+
+
+
+Format:
+
+Input:
+
+The first line contains N, which represents the number of rows and columns of a matrix. The next N lines contain N values, each representing the values of the matrix.
+
+
+
+Output:
+
+A single line containing integers with space, representing the desired traversal.
+
+
+
+Constraints: 0 < N < 500
+
+
+
+Example:
+
+Input:
+
+3
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+
+
+Output:
+
+1 2 3 6 9 8 7 4 5
+
+
+
+Solution:
+
+Input
+
+3
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+
+
+C++Java 8Python 3
+1
+#include<bits/stdc++.h>
+2
+using namespace std;
+3
+int main()
+4
+{
+5
+    int n,m,i,j;
+6
+    cin>>n;
+7
+    int a[n][n];
+8
+    for(i=0;i<n;i++)
+9
+    {
+10
+        for(j=0;j<n;j++)
+11
+            cin>>a[i][j];
+12
+    }
+13
+    //int count=1;
+14
+    int round=ceil((double)n/2);
+15
+    for(i=0;i<round;i++)
+16
+    {    
+17
+        for(j=i;j<=n-i-1;j++)
+18
+            cout<<a[i][j]<<" ";
+19
+        for(j=i+1;j<=n-i-1;j++)
+20
+            cout<<a[j][n-i-1]<<" ";
+21
+        for(j=n-i-2;j>=i;j--)
+22
+            cout<<a[n-i-1][j]<<" ";
+23
+        for(j=n-i-2;j>i;j--)
+24
+            cout<<a[j][i]<<" ";
+OUTPUT
+1 2 3 6 9 8 7 4 5
+
+
+----------------------------------------------------------------End-----------------------------------------------------
+
+
+
+
+
+
+************************************************************************************************************************************************************
+############################################################################################################################################################
+*************************************************************************************************************************************************************
+
+
+
+-----------------------------------------------------------------C Interview Questions and answers------------------
+
+
+
+Basic Interview Questions On C
+1. What's the value of the expression 5["abxdef"]?
+The answer is 'f'.
+
+Explanation: The string mentioned "abxdef" is an array, and the  expression is equal to "abxdef"[5]. Why is the inside-out expression equivalent?  Because a[b] is equivalent to *(a + b) which is equivalent to *(b + a) which is equivalent to b[a].
+
+2. What is a built-in function in C?
+The most commonly used built-in functions in C are sacnf(), printf(), strcpy, strlwr, strcmp, strlen, strcat, and many more.
+
+Built-function is also known as library functions that are provided by the system to make the life of a developer easy by assisting them to do certain commonly used predefined tasks. For example, if you need to print output or your program into the terminal, we use printf() in C.
+
+3. In C, What is the #line used for?
+In C, #line is used as a preprocessor to re-set the line number in the code, which takes a parameter as line number. Here is an example for the same.
+
+#include <stdio.h>								/*line 1*/
+												/*line 2*/
+	int main(){									/*line 3*/
+												/*line 4*/
+	printf("Nello world\n");					/*line 5*/
+	//print current line						/*line 6*/
+	printf("Line: %d\n",_LINE_);				/*line 7*/
+	//reset the line number by 36				/*line 8*/
+	#line 36	/*reseting*/
+	//print current line						/*line 36*/
+	printf("Line: %d\n",_LINE_);				/*line 37*/
+	printf("Bye bye!!!\n");						/*line 39*/
+												/*line 40*/
+	return 0;									/*line 41*/
+}												/*line 42*/
+You can download a PDF version of C Interview Questions.
+
+4. How can a string be converted to a number?
+The function takes the string as an input that needs to be converted to an integer.
+
+int atoi(const char *string)
+Return Value:
+
+On successful conversion, it returns the desired integer value
+If the string starts with alpha-numeric char or only contains alpha-num char, 0 is returned.
+In case string starts with numeric character but is followed by alpha-num char, the string is converted to integer till the first occurrence of alphanumeric char.
+
+Converting String to Number
+5. How can a number be converted to a string?
+The function takes a pointer to an array of char elements that need to be converted, and a format string needs to be written in a buffer as a string
+
+int sprintf(char *str, const char *format, ...)
+#include<stdio.h> 
+#include <math.h>
+int main() 
+{ 
+    char str[80]; 
+ 
+    sprintf(str, "The value of PI = %f", M_PI); 
+    puts(str);
+
+    return 0;
+}
+Below is the output after running the above code:
+
+Output: Value of Pi = 3.141593
+
+6. Why doesn’t C support function overloading?
+After you compile the C source, the symbol names need to be intact in the object code. If we introduce function overloading in our source, we should also provide name mangling as a preventive measure to avoid function name clashes. Also, as C is not a strictly typed language many things(ex: data types) are convertible to each other in C. Therefore, the complexity of overload resolution can introduce confusion in a language such as C.
+
+When you compile a C source, symbol names will remain intact. If you introduce function overloading, you should provide a name mangling technique to prevent name clashes. Consequently, like C++, you'll have machine-generated symbol names in the compiled binary.
+
+Additionally, C does not feature strict typing. Many things are implicitly convertible to each other in C. The complexity of overload resolution rules could introduce confusion in such kind of language
+
+7. What is the difference between global int and static int declaration?
+The difference between this is in scope. A truly global variable has a global scope and is visible everywhere in your program.
+
+#include <stdio.h> 
+ 
+int my_global_var = 0; 
+ 
+int 
+main(void) 
+ 
+{ 
+  printf("%d\n", my_global_var); 
+  return 0; 
+} 
+global_temp is a global variable that is visible to everything in your program, although to make it visible in other modules, you'd need an ”extern int global_temp; ” in other source files if you have a multi-file project.
+
+A static variable has a local scope but its variables are not allocated in the stack segment of the memory. It can have less than global scope, although - like global variables - it resides in the .bss segment of your compiled binary.
+
+#include <stdio.h> 
+ 
+int 
+myfunc(int val) 
+ 
+{ 
+    static int my_static_var = 0; 
+ 
+    my_static_var += val; 
+    return my_static_var; 
+} 
+ 
+int 
+main(void) 
+ 
+{ 
+   int myval; 
+ 
+   myval = myfunc(1); 
+   printf("first call %d\n", myval); 
+ 
+   myval = myfunc(10); 
+ 
+   printf("second call %d\n", myval); 
+ 
+   return 0; 
+}
+8. Difference between const char* p and char const* p?
+const char* p is a pointer to a const char.
+
+char const* p is a pointer to a char const.
+
+Since const char and char const are the same, it's the same.
+
+9. Why n++ execute faster than n+1 ?
+n++ being a unary operation, it just needs one variable. Whereas, n = n + 1 is a binary operation that adds overhead to take more time (also binary operation: n += 1). However, in modern platforms, it depends on few things such as processor architecture, C compiler, usage in your code, and other factors such as hardware problems.
+
+While in the modern compiler even if you write n = n + 1 it will get converted into n++ when it goes into the optimized binary, and it will be equivalently efficient.
+
+
+10. What are the advantages of Macro over function?
+Macro on a high-level copy-paste, its definitions to places wherever it is called. Due to which it saves a lot of time, as no time is spent while passing the control to a new function and the control is always with the callee function. However, one downside is the size of the compiled binary is large but once compiled the program comparatively runs faster.
+
+C Intermediate Interview Questions
+11. Specify different types of decision control statements?
+All statements written in a program are executed from top to bottom one by one. Control statements are used to execute/transfer the control from one part of the program to another depending on the condition.
+
+If-else statement.
+normal if-else statement.
+Else-if statement
+nested if-else statement.
+Switch statement.
+12. What is the difference between struct and union in C?
+A struct is a group of complex data structures stored in a block of memory where each member on the block gets a separate memory location to make them accessible at once
+
+Whereas in the union, all the member variables are stored at the same location on the memory as a result to which while assigning a value to a member variable will change the value of all other members.
+
+/* struct & union definations*/
+struct bar {
+	int a;	// we can use a & b both simultaneously
+	char b;
+}	bar;
+
+union foo {
+	int a;	// we can't use both a and b simultaneously
+	char b;
+}	foo;
+
+/* using struc and union variables*/
+
+struct bar y;
+y.a = 3;	// OK to use
+y.b = 'c'; // OK to use
+
+union foo x;
+x.a = 3; // OK
+x.b = 'c'; // NOl this affects the value of x.a!
+13. What is call by reference in functions?
+When we caller function makes a function call bypassing the addresses of actual parameters being passed, then this is called call by reference. In incall by reference, the operation performed on formal parameters affects the value of actual parameters because all the operations performed on the value stored in the address of actual parameters.
+
+14. What is pass by reference in functions?
+In Pass by reference, the callee receives the address and makes a copy of the address of an argument into the formal parameter. Callee function uses the address to access the actual argument (to do some manipulation). If the callee function changes the value addressed at the passed address it will be visible to the caller function as well.
+
+
+Pass By Reference
+15. What is a memory leak? How to avoid it?
+When we assign a variable it takes space of our RAM (either heap or RAM)dependent on the size of data type, however, if a programmer uses a memory available on the heap and forgets to a delta it, at some point all the memory available on the ram will be occupied with no memory left this can lead to a memory leak.
+
+int main()
+{
+    char * ptr = malloc(sizeof(int));
+    
+    /* Do some work */
+    /*Not freeing the allocated memory*/
+    return 0;
+}
+To avoid memory leaks, you can trace all your memory allocations and think forward, where you want to destroy (in a good sense) that memory and place delete there. Another way is to use C++ smart pointer in C linking it to GNU compilers.
+
+16. What is Dynamic memory allocation in C? Name the dynamic allocation functions.
+C is a language known for its low-level control over the memory allocation of variables in DMA there are two major standard library malloc() and free. The malloc() function takes a single input parameter which tells the size of the memory requested It returns a pointer to the allocated memory. If the allocation fails, it returns NULL. The prototype for the standard library function is like this:
+
+void *malloc(size_t size);
+The free() function takes the pointer returned by malloc() and de-allocates the memory. No indication of success or failure is returned. The function prototype is like this: 
+
+void free(void *pointer);
+There are 4 library functions provided by C defined under <stdlib.h> header file to facilitate dynamic memory allocation in C programming. They are:
+
+malloc()
+calloc()
+free()
+realloc()
+17. What is typedef?
+typedef is a C keyword, used to define alias/synonyms for an existing type in C language. In most cases, we use typedef's to simplify the existing type declaration syntax. Or to provide specific descriptive names to a type.
+
+typedef <existing-type> <new-type-identifiers>;
+typedef provides an alias name to the existing complex type definition. With typedef, you can simply create an alias for any type. Whether it is a simple integer to complex function pointer or structure declaration, typedef will shorten your code.
+
+18. Why is it usually a bad idea to use gets()? Suggest a workaround.
+The standard input library gets() reads user input till it encounters a new line character. However, it does not check on the size of the variable being provided by the user is under the maximum size of the data type due to which makes the system vulnerable to buffer overflow and the input being written into memory where it isn’t supposed to.
+
+We, therefore, use fgets() to achieve the same with a restricted range of input
+
+Bonus: It remained an official part of the language up to the 1999 ISO C standard, but it was officially removed by the 2011 standard. Most C implementations still support it, but at least GCC issues a warning for any code that uses it.
+19. What is the difference between #include "..." and #include <...>?
+In practice, the difference is in the location where the preprocessor searches for the included file.
+
+For #include <filename> the C preprocessor looks for the filename in the predefined list of system directories first and then to the directories told by the user(we can use -I option to add directories to the mentioned predefined list). 
+
+For #include "filename" the preprocessor searches first in the same directory as the file containing the directive, and then follows the search path used for the #include <filename> form. This method is normally used to include programmer-defined header files.
+
+20. What are dangling pointers? How are dangling pointers different from memory leaks?
+The dangling pointer points to a memory that has already been freed. The storage is no longer allocated. Trying to access it might cause a Segmentation fault. A common way to end up with a dangling pointer:
+
+#include<stdio.h>
+#include<string.h>
+
+char *func()
+{
+    char str[10];
+    strcpy(str,"Hello!");
+    return(str);
+}
+You are returning an address that was a local variable, which would have gone out of scope by the time control was returned to the calling function. (Undefined behavior)
+
+*c = malloc(5izeof(int));
+free(c);
+*c = 3; //writing to freed location!
+In the figure shown above writing to a memory that has been freed is an example of the dangling pointer, which makes the program crash.
+
+A memory leak is something where the memory allocated is not freed which causes the program to use an undefined amount of memory from the ram making it unavailable for every other running program(or daemon) which causes the programs to crash. There are various tools like O profile testing which is useful to detect memory leaks on your programs.
+
+void function(){
+	char *leak = malloc (10);	//leak assigned but not freed
+}
+21. What is the difference between ‘g’ and “g” in C?
+In C double-quotes variables are identified as a string whereas single-quoted variables are identified as the character. Another major difference being the string (double-quoted) variables end with a null terminator that makes it a 2 character array.
+
+C Interview Questions For Experienced
+22. Can you tell me how to check whether a linked list is circular?
+Single Linked List
+
+
+Single Linked List
+Circular Linked List
+
+Circular linked list is a variation of a linked list where the last node is pointing to the first node's information part. Therefore the last node does not point to null.
+
+Algorithm to find whether the given linked list is circular
+A very simple way to determine whether the linked list is circular or not
+
+Traverse the linked list
+Check if the node is pointing to the head.
+If yes then it is circular.
+Let's look at the snippet where we code this algorithm.
+
+Create a structure for a linked list
+Declare
+-Variable to store data of the node.
+-Pointer variable of struct type to store the address of next node.
+
+function of datatype tool isCircular(firstgode){
+
+-Store the value of first node in temp variable and make it traverse all nodes.
+-temp-firstgode
+-tempenext node pointed by temp(temp->next)
+-run until temp is at null or firstNode
+
+if (temp at null)
+	not circular and returns false 
+if (temp points first node)
+	return true as its circular.
+	}
+	
+function of datatype node newNode(data){
+
+-To insert new nodes and link each one of them to the previous node by storing the address of the new node to the previous one.
+-Then make them point to NULL.
+}
+
+In int main function
+
+-First insert nodes for circular linked list and check its nature by calling isCircular function.
+-Since it is true through if statement it prints "yes..
+-Second insert a normal linked list and check its nature by calling isCircular function. As its not circular it prints "no",
+23. What is the use of a semicolon (;) at the end of every program statement?
+It is majorly related to how the compiler reads( or parses) the entire code and breaks it into a set of instructions(or statements), to which semicolon in C acts as a boundary between two sets of instructions.
+
+24. Differentiate Source Codes from Object Codes
+
+Source Code and Object Code Difference
+The difference between the Source Code and Object Code is that Source Code is a collection of computer instructions written using a human-readable programming language while Object Code is a sequence of statements in machine language, and is the output after the compiler or an assembler converts the Source Code.
+
+The last point about Object Code is the way the changes are reflected. When the Source Code is modified, each time the Source Code needs to be compiled to reflect the changes in the Object Code.
+
+25. What are header files and what are its uses in C programming?
+
+Header Files in C
+In C header files must have the extension as .h, which contains function definitions, data type definitions, macro, etc. The header is useful to import the above definitions to the source code using the #include directive. For example, if your source code needs to take input from the user do some manipulation and print the output on the terminal, it should have stdio.h file included as #include <stdio.h>, with which we can take input using scanf() do some manipulation and print using printf().
+
+26. When is the "void" keyword used in a function
+The keyword “void” is a data type that literally represents no data at all. The most obvious use of this is a function that returns nothing:
+
+void PrintHello() 
+{ 
+	printf("Hello\n"); 
+	return;		// the function does "return", but no value is returned 
+} 
+Here we’ve declared a function, and all functions have a return type. In this case, we’ve said the return type is “void”, and that means, “no data at all” is returned. 
+The other use for the void keyword is a void pointer. A void pointer points to the memory location where the data type is undefined at the time of variable definition. Even you can define a function of return type void* or void pointer meaning “at compile time we don’t know what it will return” Let’s see an example of that.
+
+void MyMemCopy(void* dst, const void* src, int numBytes) 
+{ 
+	char* dst_c = reinterpret_cast<char*>(dst); 
+	const char* src_c = reinterpret_cast<const char*>(src); 
+	for (int i = 0; i < numBytes; ++i) 
+		dst_c[i] = src_c[i]; 
+} 
+27. What is dynamic data structure?
+A dynamic data structure (DDS) refers to an organization or collection of data in memory that has the flexibility to grow or shrink in size, enabling a programmer to control exactly how much memory is utilized. Dynamic data structures change in size by having unused memory allocated or de-allocated from the heap as needed. 
+
+Dynamic data structures play a key role in programming languages like C, C++, and Java because they provide the programmer with the flexibility to adjust the memory consumption of software programs.
+
+28. Add Two Numbers Without Using the Addition Operator
+For the sum of two numbers, we use the addition (+) operator. In these tricky C programs, we will write a C program to add two numbers without using the addition operator.
+
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+  int x, y;
+  printf("Enter two number: ");
+  scanf("%d %d",&x,&y);
+
+  // method 1
+  printf("%d\n", x-(-y));
+
+  // method 2
+  printf("%d\n", -(-x-y));
+
+  // method 3
+  printf("%d\n", abs(-x-y));
+
+  // method 4
+  printf("%d", x-(~y)-1);
+
+  return 0;
+}
+29. Subtract Two Number Without Using Subtraction Operator
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+   int x, y;
+   printf("Enter two number: ");
+   scanf("%d %d",&x,&y);
+   printf("%d", x+(~y)+1);
+   return 0;
+}
+The bitwise complement operator is used in this program. The bitwise complement of number ~y=-(y+1). So, expression will become x+(-(y+1))+1=x-y-1+1=x-y
+
+30. Multiply an Integer Number by 2 Without Using Multiplication Operator
+#include<stdio.h>
+int main()
+{
+   int x;
+   printf("Enter a number: ");
+   scanf("%d",&x);
+   printf("%d", x<<1);
+   return 0;
+}
+The left shift operator shifts all bits towards the left by a certain number of specified bits. The expression x<<1 always returns x*2. Note that the shift operator doesn’t work on floating-point values.
+
+For multiple of x by 4, use x<<2. Similarly x<<3 multiply x by 8. For multiple of the number x by 2^n, use x<<n.
+
+31. Check whether the number is EVEN or ODD, without using any arithmetic or relational operators
+#include<stdio.h>
+int main()
+{
+   int x;
+   printf("Enter a number: ");
+   scanf("%d", &x);
+   (x&1)?printf("Odd"):printf("Even");
+   return 0;
+}
+The bitwise and(&) operator can be used to quickly check the number is odd or even.
+
+32. Reverse the Linked List. Input: 1->2->3->4->5->NULL Output: 5->4->3->2->1->NULL
+Assume that we have linked list 1 → 2 → 3 → Ø, we would like to change it to Ø ← 1 ← 2 ← 3.
+
+
+While you travel the linked list, change the current node's next pointer to point to its previous element. reference to the previous nodes should be stored into a temp variable as shown so that we don’t lose track of the swapped node. You also need another pointer to store the next node before changing the reference. Also when we are done return the new head of the reversed list.
+
+/* Function to reverse the linked list */
+static void reverse(struct Node** head_ref) 
+{ 
+    struct Node* prev   = NULL; 
+    struct Node* current = *head_ref; 
+    struct Node* next; 
+    while (current != NULL) 
+    { 
+        // store next
+        next  = current->next;   
+
+        // reverse curr node pointer 
+        current->next = prev;    
+
+        // move pointer one position ahead
+        prev = current; 
+        current = next; 
+    } 
+    *head_ref = prev; 
+}
+33. Check for Balanced Parentheses using Stack
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Example 1:
+ Input: s = "()"
+ Output: true
+
+Example 2:
+ Input: s = "()[]{}"
+ Output: true
+
+Example 3:
+ Input: s = "(]"
+ Output: false
+
+
+Below is the source code for C Program to Check for Balanced Parentheses using Stack which is successfully compiled and run on Windows System to produce desired output as shown below :
+
+int check(char exp[] )
+{
+        int i;
+        char temp;
+        for(i=0;i<strlen(exp);i++)
+        {
+                if(exp[i]=='(' || exp[i]=='{' || exp[i]=='[')
+                        push(exp[i]);
+                if(exp[i]==')' || exp[i]=='}' || exp[i]==']')
+                        if(top==-1)    /*stack empty*/
+                        {
+                                printf("Right parentheses are more than left parentheses\n");
+                                return 0;
+                        }
+                        else
+                        {
+                                temp=pop();
+                                if(!match(temp, exp[i]))
+                                {
+                                        printf("Mismatched parentheses are : ");
+                                        printf("%c and %c\n",temp,exp[i]);
+                                        return 0;
+                                }
+                        }
+        }
+        if(top==-1) /*stack empty*/
+        {
+                printf("Balanced Parentheses\n");
+                return 1;
+        }
+        else
+        {
+                printf("Left parentheses more than right parentheses\n");
+                return 0;
+        }
+}
+
+34. Program to find n’th Fibonacci number
+Fibonacci sequence is characterized by the fact that every number after the first two is the sum of the two preceding ones. For example, consider below sequence
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . .. and so on
+
+Where in F{n} = F{n-1} + F{n-2} with base values F(0) = 0 and <code>F(1) = 1
+
+Below is naive implementation for finding the nth member of the Fibonacci sequence
+
+// Function to find the nth Fibonacci number
+int fib(int n)
+{
+    if (n <= 1) {
+        return n;
+    }
+ 
+    return fib(n - 1) + fib(n - 2);
+}
+ 
+int main()
+{
+    int n = 8;
+ 
+    printf("nth Fibonacci number is %d", fib(8));
+ 
+    return 0;
+}
+35. Write a program to find the node at which the intersection of two singly linked lists begins.
+Let's take an example of the following two linked lists which intersect at node c1.
+
+
+Intersection of Two Linked List
+Solution -
+
+Get count of the nodes in the first list, let count be c1.
+Get count of the nodes in the second list, let count be c2.
+Get the difference of counts d = abs(c1 – c2)
+Now traverse the bigger list from the first node till d nodes so that from here onwards both the lists have an equal no of nodes
+Then we can traverse both the lists in parallel till we come across a common node. (Note that getting a common node is done by comparing the address of the nodes)
+// Function to get the intersection point 
+// of the given linked lists 
+int getIntersectionNode(Node* head1, Node* head2) 
+{ 
+    Node *curr1 = head1, *curr2 = head2; 
+  
+    // While both the pointers are not equal 
+    while (curr1 != curr2) { 
+  
+        // If the first pointer is null then 
+        // set it to point to the head of 
+        // the second linked list 
+        if (curr1 == NULL) { 
+            curr1 = head2; 
+        } 
+  
+        // Else point it to the next node 
+        else { 
+            curr1 = curr1->next; 
+        } 
+  
+        // If the second pointer is null then 
+        // set it to point to the head of 
+        // the first linked list 
+        if (curr2 == NULL) { 
+            curr2 = head1; 
+        } 
+  
+        // Else point it to the next node 
+        else { 
+            curr2 = curr2->next; 
+        } 
+    } 
+  
+    // Return the intersection node 
+    return curr1->data; 
+}
+36. Merge Two sorted Linked List
+Merge two sorted linked lists and return them as a sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+
+Merging Two Sorted Linked List
+NodePtr merge_sorted(NodePtr head1, NodePtr head2) {
+  
+  // if both lists are empty then merged list is also empty
+  // if one of the lists is empty then other is the merged list
+  if (head1 == nullptr) {
+    return head2;
+  } else if (head2 == nullptr) {
+    return head1;
+  }
+
+
+  NodePtr mergedHead = nullptr;
+  if (head1->data <= head2->data) {
+    mergedHead = head1;
+    head1 = head1->next;
+  } else {
+    mergedHead = head2;
+    head2 = head2->next;
+  }
+
+  NodePtr mergedTail = mergedHead;
+  
+  while (head1 != nullptr && head2 != nullptr) {
+    NodePtr temp = nullptr;
+    if (head1->data <= head2->data) {
+      temp = head1;
+      head1 = head1->next;
+    } else {
+      temp = head2;
+      head2 = head2->next;
+    }
+
+    mergedTail->next = temp;
+    mergedTail = temp;
+  }
+
+  if (head1 != nullptr) {
+    mergedTail->next = head1;
+  } else if (head2 != nullptr) {
+    mergedTail->next = head2;
+  }
+
+  return mergedHead;
+}
+Runtime Complexity Linear, O(m + n) where m and n are lengths of both linked lists. 
+Memory Complexity Constant, O(1)
+
+Maintain a head and a tail pointer on the merged linked list. Then choose the head of the merged linked list by comparing the first node of both linked lists. For all subsequent nodes in both lists, you choose the smaller current node and link it to the tail of the merged list, and moving the current pointer of that list one step forward.
+
+You keep doing this while there are some remaining elements in both lists. If there are still some elements in only one of the lists, you link this remaining list to the tail of the merged list.
+
+Initially, the merged linked list is NULL. Compare the value of the first two nodes and make the node with the smaller value the head node of the merged linked list. In this example, it is 4 from head1.
+
+Since it’s the first and only node in the merged list, it will also be the tail. Then move head1 one step forward.
+
+Additional Resources
+
+C++ Interview Questions
+
+Practice Coding
+
+Difference Between C and C++
+
+Online C Compiler
+
+C MCQs
+1.
+C variable cannot start with which of the following option
+
+
+An alphabet
+
+A number
+
+A special symbol other than underscore
+
+Both (b) and (c)
+2.
+During function call, Default Parameter Passing Mechanism is called as
+
+
+Call by Value
+
+Call by Reference
+
+Call by Address
+
+Call by Name
+3.
+The statement printf(“%d”, 10 ? 0 ? 5 : 1 : 12); will print?
+
+
+10
+
+0
+
+12
+
+1
+4.
+In the switch statement, each case instance value must be _______?
+
+
+Constant
+
+Variable
+
+Special Symbol
+
+None of the above
+5.
+Which is the correct syntax to declare constants in C?
+
+
+int constant var =10;
+
+int const var = 10;
+
+const int var = 10;
+
+B & C Both
+6.
+Bitwise operators can operate upon?
+
+
+double and chars
+
+floats and doubles
+
+ints and floats
+
+ints and chars
+7.
+The number of binary trees that can be formed using 5 nodes are
+
+
+30
+
+42
+
+108
+
+36
+8.
+What is the correct syntax to access the value of struct variable book{ price, page }?
+
+
+printf("%d%d", book.price, book.page);
+
+printf("%d%d", price.book, page.book);
+
+printf("%d%d", price::book, page::book);
+
+printf("%d%d", price->book, page->book);
+9.
+Which of the following data structures is linear type?
+
+
+Strings
+
+Queue
+
+Lists
+
+All of the above
+10.
+A binary tree with 27 nodes has _______ null branches.
+
+
+54
+
+27
+
+26
+
+None of the above
+
+
+
+
+-------------------------------------------------------------End-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
