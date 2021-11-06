@@ -29,17 +29,14 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	C Variables
 	C Type Casting
 
-
 ### Data Input and Output-------------------------------3rd day
+
 	C Program Structure
 	C Input and Output (I/O)
 	C Format Specifiers
 
-
-
-
-
 ### Decision Control Structures ------------------------4th day
+
 	C Decision Making
 	C if Statements
 	C if-else Statements
@@ -48,21 +45,12 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	C goto Statement
 	C switch Statement
 
-
-
-
-
-
 ### Loop Control Structures------------------------------5th day
 
 	C Loops
 	C while loops
 	C do while loops
 	C for loops
-
-
-
-
 
 ### Functions---------------------------------------------6th day
 
@@ -73,26 +61,16 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	C Recursion
 	C Storage Classes
 
-
-
-
 ### Preprocessors and Header Files--------------------------7th day
 
 	C preprocessors
 	C Header Files
 	C Custom Header Files
 
-
-
-
 ### Arrays and Strings --------------------------------------8th day
 
 	C Arrays
 	C strings
-
-
-
-
 
 ### Pointers--------------------------------------------------9th day
 
@@ -100,19 +78,11 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	C Memory Management
 	C Dynamic Memory Allocations
 
-
-
-
-
 ### Structure and Union -------------------------------------10th day
 
 	C Structures
 	C Unions
 	C typedef
-
-
-
-
 
 ### File Handlings  -----------------------------------------11th day
 
@@ -135,11 +105,6 @@ Use the [vs code]( https://code.visualstudio.com/ ) go to site click the downloa
 	C 99 Features
 	C Error Handling
 	Bit Fields in C
-
-
-
-
-
 
 ## code
 ```c
