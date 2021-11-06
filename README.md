@@ -6,6 +6,151 @@ c learning with in 30 days, my self joga yogesh i'm a mechanical guy, im intrest
 ## Installation to C lang IDE + vs code
 Use the [vs code]( https://code.visualstudio.com/ ) go to site click the download button start downloding, After download and install the vs code, open the vs code and click on the Extension logo button, click into the search button, search the gcc from microsoft extension download and install.
 
+
+
+## This is for beginners 
+
+### Overview of C Language   ----------------- 1st day
+
+	C Tutorials
+	C Introduction
+	Limitation of C Programming Language
+	History of C Programming
+	C Installation
+
+
+
+
+
+
+
+### C Language Fundamentals---------------------2nd day
+
+	C Tokens
+	C Identifiers
+	C Keywords
+	C Constants
+	C Operators
+	C Data Types
+	C Variables
+	C Type Casting
+
+
+
+
+
+
+### Data Input and Output------------------------3rd day
+	C Program Structure
+	C Input and Output (I/O)
+	C Format Specifiers
+
+
+
+
+
+### Decision Control Structures ------------------------4th day
+	C Decision Making
+	C if Statements
+	C if-else Statements
+	C Nested if-else Statements
+	C else-if Statements
+	C goto Statement
+	C switch Statement
+
+
+
+
+
+
+### Loop Control Structures------------------------------5th day
+
+	C Loops
+	C while loops
+	C do while loops
+	C for loops
+
+
+
+
+
+### Functions----------------------------------------6th day
+
+	C functions
+	C functions Arguments
+	C Library Functions
+	C Variable Scope
+	C Recursion
+	C Storage Classes
+
+
+
+
+### Preprocessors and Header Files-----------------------7th day
+
+	C preprocessors
+	C Header Files
+	C Custom Header Files
+
+
+
+
+### Arrays and Strings ----------------------------------8th day
+
+	C Arrays
+	C strings
+
+
+
+
+
+### Pointers-------------------------------------9th day
+
+	C Pointers
+	C Memory Management
+	C Dynamic Memory Allocations
+
+
+
+
+
+### Structure and Union ----------------------------10th day
+
+	C Structures
+	C Unions
+	C typedef
+
+
+
+
+
+### File Handlings  --------------------------------------11th day
+
+	C File Handling
+	C fopen
+	C fclose
+	C gets
+	C puts
+	C getc
+	C putc
+	C getw
+	C putw
+	C fprintf
+	C fscanf
+	C feof
+
+### C 99/89 ----------------------------------------12th day
+
+	C Commands Line Arguments
+	C 99 Features
+	C Error Handling
+	Bit Fields in C
+
+
+
+
+
+
 ## code
 ```c
 //write the code 
