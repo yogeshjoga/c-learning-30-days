@@ -294,3 +294,4 @@ The addition of two numbers is: 15
 
    
 <img src="https://github.com/yogeshjoga/c-learning-30-days/blob/master/my_photo_git.jpg">
+
