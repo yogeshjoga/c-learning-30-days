@@ -87,7 +87,7 @@ int main(){
             printf("Please enter the item %d", i+1);
             fgets(ord.itm[i].item,20,stdin);
             ord.itm[i].item[strlen(ord.itm[i].item)-1]=0;
-            scanf("%d",ord.itm[i].quantity);
+            scanf("%d",&ord.itm[i].quantity);
             printf("\n Please enter the unit of Price : \t");
             scanf("%f", &ord.itm[i].price);
 
