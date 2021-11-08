@@ -6,7 +6,13 @@
 char square[10] = {'0','1','2','3','4','5','6','7','8','9' }; // total box's names
 int checkWin();         // winner
 void drawBoard();   // 
+
+
 //  function start 
+
+
+
+
 int main(){
     int player = 1, i, choice;
     char mark;
@@ -18,7 +24,7 @@ int main(){
         mark = (player ==1) ? 'X' : 'O';
         if(choice == 1 && square[1] == '1')
           square[1] = mark;
-          else if (choice ==2 && square[2] == '2')
+            else if (choice ==2 && square[2] == '2')
                square[2] = mark;
             else if (choice ==3 && square[3] == '3')
                square[3] = mark;
@@ -57,6 +63,8 @@ int main(){
     getch();
     return 0;
 }
+
+
 int checkWin(){
     if (square[1] == square[2] && square[2] == square[3])
         return 1;
@@ -74,12 +82,15 @@ int checkWin(){
         return 1;
     else if (square[1] == square[5] && square[5] == square[9])
         return 1;
-    else if (square[1] != '1' && square[2] != '2' && square[3] != '3' && square[4] != '4' && square[5] != '5' && square[5] != '5' && square[6] != '6' && square[6] != '6' && square[17] != '7' && square[8] != '8' && square[9] != '9')
+    else if (square[1] != '1' && square[2] != '2' && square[3] != '3' && square[4] != '4' && square[5] != '5' &&  square[6] != '6' && square[7] != '7' && square[8] != '8' && square[9] != '9')
         return 0;
     else 
         return -1;
          
 } 
+
+
+
 
 void drawBoard(){
     system("cls");
@@ -95,4 +106,10 @@ void drawBoard(){
     printf("    %c   |   %c   |     %c  \n", square[7], square[8], square[9]);
     printf("        |       |        \n");
 }
+
+
+
+
+
+
 
