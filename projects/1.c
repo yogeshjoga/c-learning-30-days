@@ -8,6 +8,9 @@
 #include<stdlib.h>
 #include<math.h>
 #include<string.h>
+#pragma GCC diagnostic ignored "-Wmultichar"
+
+
 void GameBoard();
 int winner;
 // multi char error we will do as possible it 
@@ -25,53 +28,53 @@ int main(){
         if(choice == 1 && square[1] == '1')
           square[1] = symbol;
             else if (choice ==2 && square[2] == '2')
-               square[2] = mark;
+               square[2] = symbol;
             else if (choice ==3 && square[3] == '3')
-               square[3] = mark;
+               square[3] = symbol;
             else if (choice ==4 && square[4] == '4')
-               square[4] = mark;
+               square[4] = symbol;
             else if (choice ==5 && square[5] == '5')
-               square[5] = mark;
+               square[5] = symbol;
             else if (choice ==6 && square[6] == '6')
-               square[6] = mark;
+               square[6] = symbol;
             else if (choice ==7 && square[7] == '7')
-               square[7] = mark;
+               square[7] = symbol;
             else if (choice ==8 && square[8] == '8')
-               square[8] = mark;
+               square[8] = symbol;
             else if (choice ==9 && square[9] == '9')
-               square[9] = mark;
+               square[9] = symbol;
             else if (choice ==10 && square[10] == '10')
-               square[10] = mark;
+               square[10] = symbol;
             else if (choice ==11 && square[11] == '11')
-               square[11] = mark;
+               square[11] = symbol;
             else if (choice ==12 && square[12] == '12')
-               square[12] = mark;
+               square[12] = symbol;
             else if (choice ==13 && square[13] == '13')
-               square[13] = mark;
+               square[13] = symbol;
             else if (choice ==14 && square[14] == '14')
-               square[14] = mark;
+               square[14] = symbol;
             else if (choice ==15 && square[15] == '15')
-               square[15] = mark;
+               square[15] = symbol;
             else if (choice ==16 && square[16] == '16')
-               square[16] = mark;
+               square[16] = symbol;
             else if (choice ==17 && square[17] == '17')
-               square[17] = mark;
+               square[17] = symbol;
             else if (choice ==18 && square[18] == '18')
-               square[18] = mark;
+               square[18] = symbol;
             else if (choice ==19 && square[19] == '19')
-               square[19] = mark;
+               square[19] = symbol;
             else if (choice ==20 && square[20] == '20')
-               square[20] = mark;
+               square[20] = symbol;
             else if (choice ==21 && square[21] == '21')
-               square[21] = mark;
+               square[21] = symbol;
             else if (choice ==22 && square[22] == '22')
-               square[22] = mark;
+               square[22] = symbol;
             else if (choice ==23 && square[23] == '23')
-               square[23] = mark;
+               square[23] = symbol;
             else if (choice ==24 && square[24] == '24')
-               square[24] = mark;
+               square[24] = symbol;
             else if (choice ==25 && square[25] == '25')
-               square[25] = mark;
+               square[25] = symbol;
    }
 
  else{
@@ -89,8 +92,7 @@ int main(){
    
     if (i ==1){
         printf("==>Playr %d won", --player);
-
-    }
+      }
     else{
         printf("==>Game is Draw");
     }
@@ -140,7 +142,7 @@ int checkWin(){
     printf("Enter player 1 Name :", &player1Name);
     printf("Enter player 2 Name :", &player2Name);
     //scanf("")
-    printf("Guide : Take the SYMBOLE, only speical symobles only like Eg: @ # $ % & *\n\n ");
+    printf("Guide : Take the SYMBOLE, only speical symobles only like Eg: @ # $ %% & * \n\n ");
     printf("Enter the name Without space");
     printf("Player1 (X) - Player2 (0) \n\n\n");
     printf("        |       |       |       |         \n");
@@ -160,3 +162,5 @@ int checkWin(){
     printf("        |       |       |       |       \n");
 
 }
+
+// user 
