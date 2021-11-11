@@ -14,7 +14,8 @@
 void GameBoard();
 int winner;
 // multi char error we will do as possible it 
-char square[26] = {'0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25'};
+//char square[26] = {'0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25'};
+char square[27] = "0","11","12";
 int main(){
     int player = 1, i, choice;
     char symbol;
@@ -141,7 +142,7 @@ int checkWin(){
     printf("Enter the name Without space\n\n");
     printf("Enter player 1 Name :", &player1Name);
     printf("Enter player 2 Name :", &player2Name);
-    //scanf("")
+    //scanf("") is blance so next week plan u
     printf("Guide : Take the SYMBOLE, only speical symobles only like Eg: @ # $ %% & * \n\n ");
     printf("Enter the name Without space");
     printf("Player1 (X) - Player2 (0) \n\n\n");
