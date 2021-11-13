@@ -11,11 +11,19 @@
 #pragma GCC diagnostic ignored "-Wmultichar"
 
 
-void GameBoard();
-int winner;
+//void GameBoard();
+//int winner;
 // multi char error we will do as possible it 
-    char square[26] = {'0','1','2','3','4','5','6','7','8','9'}//10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25'};
-//char square[27] = "0","11","12";
+   char square[30][5] = {'0','1','2','3','4','5','6','7','8','9',"11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"}    //'10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25'};
+     //char square[27] = "0","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"
+   void GameBoard();
+   int winner;
+
+
+
+
+
+
 int main(){
     int player = 1, i, choice;
     char symbol;
@@ -76,9 +84,9 @@ int main(){
                square[24] = symbol;
             else if (choice ==25 && square[25] == '25')
                square[25] = symbol;
-   }
+   
 
- else{
+    else{
             printf("Invalid option !");
             player--;
             getch();
@@ -102,7 +110,7 @@ int main(){
 }
 
 
-int checkWin(){
+int winner(){
     //horizontal validation 
     if (square[1] == square[2] && square[3] == square[4] && square[4] == square[5])
         return 1;

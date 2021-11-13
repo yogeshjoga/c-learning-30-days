@@ -4,6 +4,8 @@
 #include<stdlib.h>
 // This is the TIC TOC TOE Game Development by using C language.
 char square[10] = {'0','1','2','3','4','5','6','7','8','9' }; // total box's names
+
+
 int checkWin();         // winner
 void drawBoard();   // 
 
