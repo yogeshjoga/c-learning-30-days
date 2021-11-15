@@ -24,7 +24,7 @@ int main(){
         printf("player %d, enter ther choice :", player);
         scanf("%d", &choice);
         mark = (player ==1) ? 'X' : 'O';
-        if(choice == 1 && square[1] == '1')
+        if(choice == 1 && square[1] == '1')   //sqaures to use the game board 
           square[1] = mark;
             else if (choice ==2 && square[2] == '2')
                square[2] = mark;
@@ -43,7 +43,7 @@ int main(){
             else if (choice ==9 && square[9] == '9')
                square[9] = mark;
         else{
-            printf("Invalid option !");
+            printf("Invalid option !");   //orther wise print the error msg in the 
             player--;
             getch();
         }
