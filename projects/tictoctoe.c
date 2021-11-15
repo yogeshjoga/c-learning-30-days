@@ -47,7 +47,7 @@ int main(){
             player--;
             getch();
         }
-        i = checkWin();
+        i = checkWin();  //checking 
         player++;
     
     }
