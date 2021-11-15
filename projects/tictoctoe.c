@@ -109,9 +109,9 @@ void drawBoard(){
     printf("        |       |        \n");
 }
 
+// how it
 
-
-
+// this is the multi char not working in the c lang somthing error i will make it again
 
 
 
