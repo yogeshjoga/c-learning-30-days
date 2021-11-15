@@ -52,10 +52,10 @@ int main(){
     
     }
 
-    while(i == -1);
-    drawBoard();
+    while(i == -1);  //game board 
+    GameBoard();
    
-    if (i ==1){
+    if (i ==1){     //Game board increment
         printf("==>Playr %d won", --player);
 
     }
