@@ -16,7 +16,7 @@ void drawBoard();   //
 
 
 int main(){
-    int player = 1, i, choice;
+    int player = 1, i, choice;  //choice is the player 1 and player 2 take choice 
     char mark;
     do{
         drawBoard();
@@ -113,5 +113,4 @@ void drawBoard(){
 
 // this is the multi char not working in the c lang somthing error i will make it again
 
-//user
 
